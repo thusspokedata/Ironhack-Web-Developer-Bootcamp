@@ -4,6 +4,7 @@
 
 ## Pre-work
 
+* [Pre-work readme](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work.md)
 ## Week 1
 
 ![]()
