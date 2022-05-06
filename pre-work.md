@@ -241,6 +241,6 @@ $ cd ..
 $ rm -rf my-files
 ```
 
- 
+<img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/command-line-cheat-sheet-large01.png" />
 
 
