@@ -1,4 +1,13 @@
-<h1>Linux</h1>
+<a id='section0'></a>
+### Table of Contents
++ [Linux Installation](#section1)
++ [Mac OS Installation](#section2)
++ [Command Line](#section3)
+
+<a id='section1'></a>
+<h1>Linux Installation</h1>
+[Index](#section0)
+
 **Step #1: Install Terminator**
 
 sudo apt-get update
@@ -45,7 +54,9 @@ git config --global user.name "John Doe"
 
 git config --global user.email "johndoe@example.com"
 
-<h1>Mac</h1>
+<a id='section2'></a>
+<h1>Mac OS Installation</h1>
+[Index](#section0)
 
 https://my.ironhack.com/cohorts/61a7b19bfa82e1002c5383dd/lms/courses/course-v1:IRONHACK+WDPREWORK55+MASTER/modules/ironhack-course-chapter_2/units/ironhack-course-chapter_2-sequential-vertical
 
@@ -136,5 +147,97 @@ $ git --version
 $ git config --global user.name "John Doe"
 $ git config --global user.email "johndoe@example.com"
 ```
+
+<a id='section3'></a>
+<h1>Command Line</h1>
+[Index](#section0)
+
+* Display your computer’s name:
+
+```
+$ hostname
+ # => myComputer
+```
+* Display the name of the current user:
+```
+$ whoami
+  # => myUser
+```
+
++ Display the current directory (pwd = print working directory):
+```
+$ pwd
+# =>  /home/myUser
+```
+<h3>Cool Tricks</h3>
++ Navigate directly to the root path:
+```
+$ cd /
+```
++ Navigate directly to our user’s home path:
+```
+$ cd ~
+```
++ Navigate directly to the previous working directory:
+```
+$ cd -
+```
+<h3>List Files - ls</h3>
+
++ Add -l to get a detailed listing:
+```
+$ ls -l
+```
++ Add -t to sort the results by file time:
+```
+$ ls -t
+```
++ Add -S to sort by file size:
+```
+$ ls -S
+```
++ Add -r to reverse the sorting:
+```
+$ ls -r
+```
++ Add -a to include hidden files:
+```
+$ ls -a
+```
++ If you type ls -la, the result will be the detailed list of files, including the hidden ones.
+```
+$ ls -la
+```
+
+<h3>Create and remove files</h3>
+
++ Create a new folder, enter the new folder using cd, and then create several txt files using touch:
+```
+$ mkdir my-files
+$ cd my-files
+$ touch file-1.txt
+$ touch file-2.txt
+$ touch file-3.txt
+
+```
++ Short-hand would be having all touch commands in one line:
+```
+$ mkdir my-files
+$ cd my-files
+$ touch file-1.txt file-2.txt file-3.txt
+```
++ Also, you can combine two or more commands in one line, and save some keystrokes:
+```
+$ mkdir & cd my-files ==> create directory my-files and enter it
+$ touch file-1.txt file-2.txt file-3.txt ==> create files
+```
++ To delete a list of files and folders, including all files from subdirectories, without prompting you for every single entry, you can use the -r option for recursive, and the -f option to force it. If you are one directory above my-files, type:
+
+```
+$ cd ..
+$ rm -rf my-files
+```
+
+ 
 
 
