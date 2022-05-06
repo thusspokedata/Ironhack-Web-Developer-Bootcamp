@@ -6,7 +6,8 @@
 
 <a id='section1'></a>
 <h1>Linux Installation</h1>
-[Index](#section0)
+
+[Back to Index](#section0)
 
 **Step #1: Install Terminator**
 
@@ -56,7 +57,8 @@ git config --global user.email "johndoe@example.com"
 
 <a id='section2'></a>
 <h1>Mac OS Installation</h1>
-[Index](#section0)
+
+[Back to Index](#section0)
 
 https://my.ironhack.com/cohorts/61a7b19bfa82e1002c5383dd/lms/courses/course-v1:IRONHACK+WDPREWORK55+MASTER/modules/ironhack-course-chapter_2/units/ironhack-course-chapter_2-sequential-vertical
 
@@ -150,7 +152,8 @@ $ git config --global user.email "johndoe@example.com"
 
 <a id='section3'></a>
 <h1>Command Line</h1>
-[Index](#section0)
+
+[Back to Index](#section0)
 
 * Display your computer’s name:
 
