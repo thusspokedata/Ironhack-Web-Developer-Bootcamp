@@ -11,6 +11,7 @@
 + [JS | Conditional statements](#section6)
 + [JS | Loops and iterations](#section7)
 + [JS | Functions](#section8)
++ [JS | Basic data types: Arrays](#section9)
 
 
 
@@ -445,3 +446,184 @@ A function can only return one value, but the type of that value can be any: str
 + ![return in JavaScript](https://gomakethings.com/wtf-is-return-in-javascript/)
 
 
+
+<a id='section8'></a>
+<h2>JS | Basic data types: Arrays</h2>
+
+[back to index](#section0)
+
+<h3>Creating an Array</h3>
+<em><b>An Empty Array</em></b>
+<p>In JavaScript, an array is declared using square brackets []. This is also called creating an array literal.</p>
+
+
+```js 
+const animalsArray = [];
+```
+
+<em><b>A pre-populated array</em></b>
+
+```js 
+const animalsArray = ['dog', 'cat', 'snake'];
+```
+
+<h3>Basic Array Operations</h3>
+
+<p>Things to keep in mind:</p>
+
++ whatever is in the array, we will refer to it as the element of that array.
++ elements in the array are separated with commas.
++ elements are numbered, starting with zero.
++ we can access each element using the particular position of that element. Like strings, the index starts at 0.
+
+<h3>Adding and Removing Elements</h3>
+
+<p>It would be useless not to be able to change the structure of the array, either by adding elements or removing them. Certain array methods allow us to manipulate with array elements, so let’s talk about:</p>
+
++ .push()
++ .unshift()
++ .pop()
++ .shift()
++ .splice()
+
+<p>The <b>.push()</b> method adds a new element to the end of your array.</p>
+
+```js 
+const animalArray = ["dog", "cat", "fish"];
+console.log(`Before: ${animalArray}`); // => Before: dog,cat,fish
+
+animalArray.push("lizard");
+console.log(`After: ${animalArray}`); // => After: dog,cat,fish,lizard
+```
+
+<p>If you want to add an element at the beginning of the array, what you are looking for is the <b>.unshift()</b> method.</p>
+
+```js 
+const animalArray = ["dog", "cat", "fish"];
+console.log(`Before: ${animalArray}`); // => Before: dog,cat,fish
+
+animalArray.unshift("whale");
+console.log(`After: ${animalArray}`); // => After: whale,dog,cat,fish
+```
+
+<p>If you want to extract the last element of the array, then you should use the <b>.pop()</b> method.</p>
+
+```js 
+const animalArray = ["dog", "cat", "fish"];
+console.log(`Before: ${animalArray}`); // => Before: dog,cat,fish
+
+animalArray.pop();
+console.log(`After: ${animalArray}`); // => After: dog,cat
+```
+
+
+<p>In case you need to remove the first element of the array, you should use the <b>.shift()</b> method, since it extracts and returns the first element.</p>
+
+```js 
+const animalArray = ["dog", "cat", "fish"];
+console.log(`Before: ${animalArray}`); // => Before: dog,cat,fish
+
+animalArray.shift();
+console.log(`After: ${animalArray}`); // => After: cat, fish
+```
+
+
+<p>While using .pop() and .shift() to remove an element from an array you might be wondering, what if I want to use the removed element later? Luckily, these methods return the removed element, allowing you to store it inside a variable, like this:</p>
+
+```js 
+const animalArray = ['dog', 'cat', 'fish'];
+ 
+// removes the first element and stores it inside a variable
+let myFirstAnimal = animalArray.shift();
+// removes the last element and stores it inside a variable
+let myLastAnimal = animalArray.pop();
+ 
+console.log(animalArray); // => ["cat"]
+console.log(myFirstAnimal); // => "dog"
+console.log(myLastAnimal); // => "fish"
+
+
+```
+
+<h3>Removing and/or adding Items in any position: .splice()</h3>
+<p>Sometimes, we may want to add/remove elements in any location besides the start or end of the array. To do this, we use a slightly more complex method called .splice(). This method can receive either two or more arguments:</p>
+
++ the first defines the index <b>position</b> from which you want to start deleting or adding elements,
++ the second defines <b>how many items will be deleted.</b> If this argument is 0, it will simply not remove anything,
++ the third (OPTIONAL) defines an <b>item that will be added</b> to that position. If the argument is not passed, it will simply add nothing to the array.
+
+```js 
+const animalArray = ["dog", "cat", "fish", "lizard", "whale", "cheetah"];
+console.log(`Original: ${animalArray}`); // => Original: dog,cat,fish,lizard,whale,cheetah
+console.log("------");
+
+// "From the first element, remove one going forward"
+animalArray.splice(0, 1);
+console.log(`From the first element, remove one going forward: ${animalArray}`);
+// => From the first element, remove one going forward: cat,fish,lizard,whale,cheetah
+```
+
++ Any extra arguments passed will behave exactly like the third one, this is used to add multiple elements to the array, all in the same line.
++ Similar to .pop() and .shift() any removed elements can be stored inside another variable. However, note that they will be stored as a new array of elements.
+
+<h3>Arrays and loops</h3>
+<p>One of the most common uses of a loop is to iterate over an array. This means going through the array and being able to do something with each element of the array.</p>
+
+<em><strong>for loop</em></strong>
+
+
+```js
+const animalArray = ["dog", "cat", "fish"];
+
+for (let i = 0; i < animalArray.length; i++){
+  console.log(`Index: ${i} - element: ${animalArray[i]}`);
+}
+
+// Index: 0 - element: dog
+// Index: 1 - element: cat
+// Index: 2 - element: fish
+
+``` 
+
+
+<em><strong>while loop</em></strong>
+
+
+```js
+Result Skip Results Iframe
+EDIT ON
+let counter = 0;
+const animalArray = ["dog", "cat", "fish"];
+
+while (counter < animalArray.length){
+  console.log(`Counter (===index): ${counter} - element: ${animalArray[counter]}`);
+  counter++;
+}
+
+// Counter (===index): 0 - element: dog
+// Counter (===index): 1 - element: cat
+// Counter (===index): 2 - element: fish
+
+``` 
+
+
+<em><strong>forEach loop</em></strong>
+<p>We will cover one of the most used ways to iterate over arrays, and that is the forEach loop. It is preferable to the others due to readability.</p>
+
+<p>The .forEach() is an array method that iterates through the array and has access to each element of the array, but in a bit cleaner and more readable way than the other two approaches.</p>
+
+```js
+const animalArray = ["dog", "cat", "fish"];
+
+// option 1 - ES5 (still in use so good to know):
+// animal is just a placeholder, can be any word
+animalArray.forEach(function(animal){
+  console.log(`option 1: ${animal}`);
+});
+
+// option 2 - ES6 (new and cool way that uses arrow function ( => ) - we will talk about this in the course)
+// arrayElement is just a placeholder, can be any word
+animalArray.forEach(arrayElement => {
+  console.log(`option 2: ${arrayElement}`);
+});
+``` 
