@@ -1,3 +1,22 @@
+<h1>Javascript</h1>
+
+<a id='section0'></a>
+<h2>Table of contents</h2>
+
++ [JS | Introduction and syntax](#section1)
++ [JS | Variables<](#section2)
++ [JS | Basic data types: Numbers](#section3)
++ [JS | Basic data types: Strings](#section4)
++ [JS | JS | Basic data types: Booleans](#section5)
++ [JS | Conditional statements](#section6)
++ [JS | Loops and iterations](#section7)
++ [JS | Functions](#section8)
+
+
+
+<a id='section1'></a>
+<h2>JS | Introduction and syntax</h2>
+
 <h3>What is JavaScript?</h3>
 <p>JavaScript is an object oriented and dynamic programming language created in 1995.</p>
 <p><strong>In the frontend</strong>, JavaScript is what adds the interactivity and allows you to create a variety of features for your apps;
@@ -10,6 +29,12 @@
 <h3>Basic JavaScript Syntax</h3>
 <p>The syntax of a programming language is the set of rules that needs to be respected by programmers (who write the code) to be successfully interpreted by machines (that execute that code).</p>
 <p>JavaScript’s syntax is loosely based on C or Java. This means quite a few curly braces {} and parentheses ().</p>
+
+
+<a id='section2'></a>
+<h2>JS | Variables</h2>
+
+[back to index](#section0)
 
 <h3>What is a variable?</h3>
 <p>The main purpose of variables is to store some information in them. These variables are labeled so whenever we need the information inside we can easily access them. A very common way of saying - access to a variable - is reference a variable by its name.</p>
@@ -27,7 +52,16 @@
 + name variables as descriptive as possible (examples of proper naming: userName, creditCardNo, and examples of bad names: info, value, etc. which say nothing and mean nothing from someone who was not included in the coding process from the very beginning).
 + if you’re working in a team, and in most cases, you will be, this needs to be discussed amongst everybody - terms for naming variables need to be the same for everyone.
 
+
 ![The art of naming variables](https://hackernoon.com/the-art-of-naming-variables-52f44de00aad)
+
+
+<a id='section3'></a>
+<h2>JS | Basic data types: Numbers</h2>
+
+[back to index](#section0)
+
+
   
 <h3>Basic Operators</h3>
 <table>  
@@ -86,6 +120,12 @@
 + ![MDN Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#Number_instances)
 + ![Expressions vs Statements](https://2ality.com/2012/09/expressions-vs-statements.html)
 
+
+<a id='section4'></a>
+<h2>JS | Basic data types: Strings</h2>
+
+[back to index](#section0)
+
 <h3>Strings</h3>
 <P>A string in any programming language is simply a sequence of characters between quotes. A character can be a letter, number, punctuation, or even new lines and tabs. It just needs to be between quotes.</p>
 
@@ -104,6 +144,12 @@
 
 <em><strong>.slice(start, end)</strong></em>
 <p>Found in the official MDN docs, the slice() method extracts a part of a string and returns it as a new string, without modifying the original string.</p>
+
+
+<a id='section5'></a>
+<h2>JS | Basic data types: Booleans</h2>
+
+[back to index](#section0)
 
 <h3>A boolean as a data type</h3>
 <p>Boolean is a type of data that can have two different values: true or false.</p>
@@ -144,6 +190,13 @@ The last three values shown above: <strong>undefined</strong>, <strong>null</str
 
 + ![MDN - Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 + ![Truthy and Falsy: When All is Not Equal in JavaScript](https://www.sitepoint.com/javascript-truthy-falsy/)
+
+
+<a id='section6'></a>
+<h2>JS | Conditional statements</h2>
+
+[back to index](#section0)
+
   
 <h3>The if statement</h3>
 <p>The if statement (or conditional block) executes a block of instructions if a specified condition is true. The condition is an expression that evaluates to true or false.</p>
@@ -224,7 +277,10 @@ switch (expression) {
 + ![MDN - Conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
 + ![MDN - Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
+<a id='section7'></a>
 <h2>JS | Loops and iterations</h2>
+
+[back to index](#section0)
 
 <h3>The while loop</h3>
 <p>The while loop in JavaScript has 2 key parts:</p>
@@ -315,7 +371,12 @@ for (let i = 1; i <= 30; i++){
 + ![MDN While loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 + ![JavaScript Loop Control](https://www.tutorialspoint.com/javascript/javascript_loop_control.htm)
 
+
+<a id='section8'></a>
 <h2>JS | Functions</h2>
+
+[back to index](#section0)
+
 
 <h3>What is a function?</h3>
 <p>Functions are one of the fundamental building blocks in JavaScript. A function is a set of statements that performs a particular task of the program. This task could be just a little part of a program or even the whole program.</p>
