@@ -11,7 +11,7 @@
 <p>The syntax of a programming language is the set of rules that needs to be respected by programmers (who write the code) to be successfully interpreted by machines (that execute that code).</p>
 <p>JavaScript’s syntax is loosely based on C or Java. This means quite a few curly braces {} and parentheses ().</p>
 
-<h3>What is a variable?<7h3>
+<h3>What is a variable?</h3>
 <p>The main purpose of variables is to store some information in them. These variables are labeled so whenever we need the information inside we can easily access them. A very common way of saying - access to a variable - is reference a variable by its name.</p>
   
 <h3>Variable declaration and initialization</h3>
@@ -310,3 +310,75 @@ for (let i = 1; i <= 30; i++){
   console.log(i);
 }
 ``` 
+
+![MDN For loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+![MDN While loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+![JavaScript Loop Control](https://www.tutorialspoint.com/javascript/javascript_loop_control.htm)
+
+<h2>JS | Functions</h2>
+
+<h3>What is a function?</h3>
+<p>Functions are one of the fundamental building blocks in JavaScript. A function is a set of statements that performs a particular task of the program. This task could be just a little part of a program or even the whole program.</p>
+
+<h3>Why use functions?</h3>
+<p>It is very often that we have to rewrite the same piece of code all over again in the same application - for example, we want to address our users when they log in, when they log out, when they spend too much time on one spot, and the session is about to expire and log them out. So we see the pattern here, right? All the time is some kind of alert carrying a different message. So we will have to have pretty much the same code typed multiple times. Well… not really! Now we will learn how to write and use functions, and we’ll be able to have a small piece of code to handle different situations per our need.</p>
+
+<h3>Declaring a function in JavaScript</h3>
+<p>The function declaration is the process of creating a function, but not executing it.</p>
+```js
+function sayHello() {
+
+  console.log('Hello!');
+
+}
+```
+<h3>Invoking a function in JavaScript</h3>
+<p>The process of executing (calling) the function is known as function invocation.</p>
+
+```js
+sayHello(); // => Hello!
+
+sayHello(); // => Hello!
+
+sayHello(); // => Hello!
+``` 
+
+<h3>Function Syntax</h3>
+
+```js 
+function <name> ( [<parameter_list>] ) {
+
+  <instructions>
+
+ 
+
+  [return <expression>;]
+
+}
+```
+
+
++ The word function is a reserved keyword in JS- whenever you want to create a function, it has to have this word (it is not optional neither can be replaced with some other word);
++ Anything that is placed between [] symbolizes optional content - it can be there but doesn’t have to.
++ In syntax examples, like the one above, angle brackets <> indicate a place for the identifier/parameter/code that should be provided.
+
+<h3>Arguments and Parameters</h3>
+<p><b>Parameter</b> is the variable between the parentheses which is part of the function declaration. In the case above: The language variable. Note that this word is a placeholder and can be any word possible. <b>Argument</b> is the value passed to the function at the moment of its invocation. In the case above: The different strings ger, fr, or esp that are passed and stored in the parameter.</p>
+
+<h3>Returning Values</h3>
+<p>Functions won’t always be going to print something in the console. Sometimes you want to do some action and return a value back.</p>
+<p>
+
+:exclamation: Be aware, return ends the function immediately. Only use it when you want to return a value and end the function.
+
+A function can only return one value, but the type of that value can be any: string, number, boolean, object, array, …
+</p>
+<p>Why return a value? Because we can later use that returned value inside an expression, assign it to a variable, etc.</p>
+
+![MDN Functions Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+![MDN Return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
+![Functions Cheatsheet - Codecademy](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet)
+![Functions chapter - Eloquent JavaScript](https://eloquentjavascript.net/1st_edition/chapter3.html)
+![return in JavaScript](https://gomakethings.com/wtf-is-return-in-javascript/)
+
+
