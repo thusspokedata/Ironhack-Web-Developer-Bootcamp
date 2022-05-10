@@ -4,7 +4,7 @@
 <h2>Table of contents</h2>
 
 + [JS | Introduction and syntax](#section1)
-+ [JS | Variables<](#section2)
++ [JS | Variables](#section2)
 + [JS | Basic data types: Numbers](#section3)
 + [JS | Basic data types: Strings](#section4)
 + [JS | JS | Basic data types: Booleans](#section5)
