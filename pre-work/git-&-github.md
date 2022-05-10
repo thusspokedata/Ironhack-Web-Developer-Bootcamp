@@ -71,11 +71,13 @@ Favorite Color: Yellow
 
 <h3>git init and the hidden .git folder</h3>
 <p>Inside git-practice folder, run the following command:</p>
+
 ```js 
 $ git init
 
 ``` 
 <p>Let’s run an ls command to show hidden folders and files inside of the folder:</p>
+
 ```js 
 $ ls -a
 
@@ -96,6 +98,7 @@ $ git add file1.txt file2.txt
 
 ```
 <p>We can use the git reset command to remove a file from the staging area.</p>
+
 ```js
 $ git reset file5.txt
 
@@ -128,7 +131,10 @@ $ git log
 ```
 <em>:bulb: Press q to exit the log dialog screen in your terminal.</em>
 
+![Git - Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
 
+<h2>GitHub basics</h2>
 
+<h3>Adding a Remote Repository: git remote</h3>
 
 
