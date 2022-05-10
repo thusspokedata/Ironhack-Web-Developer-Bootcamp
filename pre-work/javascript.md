@@ -218,3 +218,95 @@ switch (expression) {
     break;
 }
 ``` 
+<h3>The break statement</h3>
+<p>The break statement finishes a block execution, such as conditional blocks or loop blocks, and continues with the execution of the program.</p>
+
+![MDN - Conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+![MDN - Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+
+<h2>JS | Loops and iterations</h2>
+
+<h3>The while loop</h3>
+<p>The while loop in JavaScript has 2 key parts:</p>
+
++ the condition - once the condition is false, the loop will end;
++ the code to execute - the purpose of the loop is to run some code a certain number of times.
+
+
+```js
+let counter = 1;
+
+while (counter <= 10){
+  console.log(counter);
+  counter += 1;
+} 
+``` 
+
+<h3>The for loop</h3>
+A <b>for</b> loop is much like the <b>while</b> loop, except that some of the functionalities you had to do on your own are included in it.
+
+
+```js
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
+```
+
+<h3>Nested loops</h3>
+<p>In any code block, you can create any JavaScript statement. This means that, inside an if block you can have nested if blocks, or loop blocks, or any other kind of blocks. The same logic applies to looping:</p>
+
+```js
+     
+
+    Result
+    Skip Results Iframe
+
+EDIT ON
+
+const statement = "We are in Ironhack";
+
+for(let i = 0; i < 10; i++) {
+  if (i % 2 === 0) {
+    let x = 0;
+    
+    while (x < statement.length) {
+      let letter = statement[x];
+      if (letter === "a") {
+        console.log(i + " Cheers!")
+      }
+      x++;
+    }
+  }
+}
+````
+
+<p>:exclamation::warning: Although it is possible to nest loops, try to avoid it as much as possible. Nested loops slow down the code execution (bad code efficiency), but more than anything, make your code less readable so stay away from them.</p>
+
+<h3>Manipulating loops and their flow</h3>
+<em><strong>break</em></strong>
+<p>If you want to end a loop execution early, you can use the break keyword.</p>
+
+
+```js
+for (let i = 1; i <= 30; i++){
+  if (i === 21){
+    console.log("TWENTY ONE! Black Jack, dale!");
+    break;
+  } else {
+    console.log(i);
+  }
+}
+``` 
+
+<em><strong>continue</em></strong>
+<p>Sometimes you want to skip an iteration in a loop and continue to the next. If so, use the continue keyword in your loop combined with some sort of condition.</p>
+
+
+```js
+for (let i = 1; i <= 30; i++){
+  if (i % 3 === 0) { 
+    continue; 
+  }
+  console.log(i);
+}
+``` 
