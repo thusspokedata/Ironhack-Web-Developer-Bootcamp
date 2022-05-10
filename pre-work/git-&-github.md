@@ -35,3 +35,100 @@
 
 + <b>push</b> meaning making the code that was made locally, on your laptop, available online (on GitHub) so the others can use it;
 + <b>pull</b> meaning taking the code from online platform (GitHub) to your laptop so you can re-use it and add/remove things from it.
+
+<h3>Creating a Repository</h3>
+
+```js
+// we assume you are already on Desktop
+
+$ pwd
+
+// => /Users/<your-username>/Desktop
+
+ 
+
+$ mkdir git-practice
+
+$ cd git-practice
+
+$ touch data.txt
+
+$ code .
+
+```
+<p>Add some text to data.txt. Feel free to change the data:</p>
+
+
+```js 
+Name: Ironhacker
+
+Age: 25
+
+Favorite Color: Yellow
+
+``` 
+
+
+<h3>git init and the hidden .git folder</h3>
+<p>Inside git-practice folder, run the following command:</p>
+```js 
+$ git init
+
+``` 
+<p>Let’s run an ls command to show hidden folders and files inside of the folder:</p>
+```js 
+$ ls -a
+
+``` 
+<p>:bulb: If for some reason you run git init in a folder you didn’t intend to make a git repository, you can simply remove the .git folder using rm -rf:</p>
+
+```js
+$ git init # => to initialize folder as Git repository
+
+$ rm -rf .git # => to remove git (tracking)
+
+```
+
+<h3>Un-staging Files - git reset</h3>
+
+```js
+$ git add file1.txt file2.txt
+
+```
+<p>We can use the git reset command to remove a file from the staging area.</p>
+```js
+$ git reset file5.txt
+
+```
+
+<h3>Saving Changes: git commit</h3>
+<p>A commit in Git is a snapshot of the state of the files and folders in your project, as well as the content in them.</p>
+
+
+
+<p>Using commits in Git will:</p>
+
++ help you revert mistakes to a previous working version (kind of undo button thing);
++ enable you to collaborate with other developers on your projects without colliding and
++ keep track of who made changes, and when they did it.
+
+<p>
+
+:bulb: **git commit -m** means we will provide a message with our commit. This will become more useful later, but for now, note that you should leave a **detailed and descriptive message** about what you have done in that commit.
+
+**Make a commit message in the present tense - as someone gave you a ticket on which they told you what to do.**
+
+This is useful when you need to figure out what changes you have made in the past, and when they were done.
+  
+<h3>Revisiting and Viewing Commits: git log</h3>
+<p>The git log command is used to view commits and data about those commits. Let’s give it a run and see what happens:</p>
+
+```js
+$ git log
+```
+<em>:bulb: Press q to exit the log dialog screen in your terminal.</em>
+
+
+
+
+
