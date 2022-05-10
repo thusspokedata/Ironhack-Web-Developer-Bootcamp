@@ -81,10 +81,10 @@
 <p>An expression is any valid set of literals, variables, operators, and other expressions that evaluates to a single value. The value may be a number, a string, or a logical value. Conceptually, there are two types of expressions: those that assign a value to a variable, and those that have a value.</p>
 </p><strong>In Human:</strong> An expression is a combination of any value (number, string, array, object) and a set of operators that result in another value.</p>
 
-![MDN Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#expressions)
-![MDN Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
-![MDN Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#Number_instances)
-![Expressions vs Statements](https://2ality.com/2012/09/expressions-vs-statements.html)
++ ![MDN Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#expressions)
++ ![MDN Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
++ ![MDN Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#Number_instances)
++ ![Expressions vs Statements](https://2ality.com/2012/09/expressions-vs-statements.html)
 
 <h3>Strings</h3>
 <P>A string in any programming language is simply a sequence of characters between quotes. A character can be a letter, number, punctuation, or even new lines and tabs. It just needs to be between quotes.</p>
@@ -142,8 +142,8 @@ The last three values shown above: <strong>undefined</strong>, <strong>null</str
 + <strong>null</strong> is a type of data in JS that points, generally intentional, to a non-existing value.
 + <strong>NaN</strong> or Not a Number is commonly the result of trying to apply Number methods to data types that are not numbers.
 
-![MDN - Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
-![Truthy and Falsy: When All is Not Equal in JavaScript](https://www.sitepoint.com/javascript-truthy-falsy/)
++ ![MDN - Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
++ ![Truthy and Falsy: When All is Not Equal in JavaScript](https://www.sitepoint.com/javascript-truthy-falsy/)
   
 <h3>The if statement</h3>
 <p>The if statement (or conditional block) executes a block of instructions if a specified condition is true. The condition is an expression that evaluates to true or false.</p>
@@ -221,8 +221,8 @@ switch (expression) {
 <h3>The break statement</h3>
 <p>The break statement finishes a block execution, such as conditional blocks or loop blocks, and continues with the execution of the program.</p>
 
-![MDN - Conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
-![MDN - Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
++ ![MDN - Conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
++ ![MDN - Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 <h2>JS | Loops and iterations</h2>
 
@@ -311,9 +311,9 @@ for (let i = 1; i <= 30; i++){
 }
 ``` 
 
-![MDN For loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-![MDN While loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
-![JavaScript Loop Control](https://www.tutorialspoint.com/javascript/javascript_loop_control.htm)
++ ![MDN For loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
++ ![MDN While loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
++ ![JavaScript Loop Control](https://www.tutorialspoint.com/javascript/javascript_loop_control.htm)
 
 <h2>JS | Functions</h2>
 
@@ -325,6 +325,7 @@ for (let i = 1; i <= 30; i++){
 
 <h3>Declaring a function in JavaScript</h3>
 <p>The function declaration is the process of creating a function, but not executing it.</p>
+
 ```js
 function sayHello() {
 
@@ -332,6 +333,7 @@ function sayHello() {
 
 }
 ```
+
 <h3>Invoking a function in JavaScript</h3>
 <p>The process of executing (calling) the function is known as function invocation.</p>
 
@@ -375,10 +377,10 @@ A function can only return one value, but the type of that value can be any: str
 </p>
 <p>Why return a value? Because we can later use that returned value inside an expression, assign it to a variable, etc.</p>
 
-![MDN Functions Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-![MDN Return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
-![Functions Cheatsheet - Codecademy](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet)
-![Functions chapter - Eloquent JavaScript](https://eloquentjavascript.net/1st_edition/chapter3.html)
-![return in JavaScript](https://gomakethings.com/wtf-is-return-in-javascript/)
++ ![MDN Functions Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
++ ![MDN Return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
++ ![Functions Cheatsheet - Codecademy](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet)
++ ![Functions chapter - Eloquent JavaScript](https://eloquentjavascript.net/1st_edition/chapter3.html)
++ ![return in JavaScript](https://gomakethings.com/wtf-is-return-in-javascript/)
 
 
