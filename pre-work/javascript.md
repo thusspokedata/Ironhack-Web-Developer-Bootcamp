@@ -12,6 +12,15 @@
 + [JS | Loops and iterations](#section7)
 + [JS | Functions](#section8)
 + [JS | Basic data types: Arrays](#section9)
+* [.push()](#section9-1)
+* [.unshift()](#section9-2)
+* [.pop()](#section9-3)
+* [.shift()](#section9-4)
+* [.splice()](#section9-5)
+* [for loop](#section9-6)
+* [while loop](#section9-7)
+* [forEach loop](#section9-8)
+
 
 
 
@@ -486,8 +495,10 @@ const animalsArray = ['dog', 'cat', 'snake'];
 + .shift()
 + .splice()
 
+<a id='section9-1'></a>
 <p>The <b>.push()</b> method adds a new element to the end of your array.</p>
 
+[back to index](#section0)
 ```js 
 const animalArray = ["dog", "cat", "fish"];
 console.log(`Before: ${animalArray}`); // => Before: dog,cat,fish
@@ -495,8 +506,10 @@ console.log(`Before: ${animalArray}`); // => Before: dog,cat,fish
 animalArray.push("lizard");
 console.log(`After: ${animalArray}`); // => After: dog,cat,fish,lizard
 ```
-
+<a id='section9-2'></a>
 <p>If you want to add an element at the beginning of the array, what you are looking for is the <b>.unshift()</b> method.</p>
+
+[back to index](#section0)
 
 ```js 
 const animalArray = ["dog", "cat", "fish"];
@@ -505,8 +518,10 @@ console.log(`Before: ${animalArray}`); // => Before: dog,cat,fish
 animalArray.unshift("whale");
 console.log(`After: ${animalArray}`); // => After: whale,dog,cat,fish
 ```
-
+<a id='section9-3'></a>
 <p>If you want to extract the last element of the array, then you should use the <b>.pop()</b> method.</p>
+
+[back to index](#section0)
 
 ```js 
 const animalArray = ["dog", "cat", "fish"];
@@ -516,8 +531,10 @@ animalArray.pop();
 console.log(`After: ${animalArray}`); // => After: dog,cat
 ```
 
-
+<a id='section9-4'></a>
 <p>In case you need to remove the first element of the array, you should use the <b>.shift()</b> method, since it extracts and returns the first element.</p>
+
+[back to index](#section0)
 
 ```js 
 const animalArray = ["dog", "cat", "fish"];
@@ -526,7 +543,6 @@ console.log(`Before: ${animalArray}`); // => Before: dog,cat,fish
 animalArray.shift();
 console.log(`After: ${animalArray}`); // => After: cat, fish
 ```
-
 
 <p>While using .pop() and .shift() to remove an element from an array you might be wondering, what if I want to use the removed element later? Luckily, these methods return the removed element, allowing you to store it inside a variable, like this:</p>
 
@@ -544,8 +560,10 @@ console.log(myLastAnimal); // => "fish"
 
 
 ```
-
+<a id='section9-5'></a>
 <h3>Removing and/or adding Items in any position: .splice()</h3>
+
+[back to index](#section0)
 <p>Sometimes, we may want to add/remove elements in any location besides the start or end of the array. To do this, we use a slightly more complex method called .splice(). This method can receive either two or more arguments:</p>
 
 + the first defines the index <b>position</b> from which you want to start deleting or adding elements,
@@ -567,9 +585,13 @@ console.log(`From the first element, remove one going forward: ${animalArray}`);
 + Similar to .pop() and .shift() any removed elements can be stored inside another variable. However, note that they will be stored as a new array of elements.
 
 <h3>Arrays and loops</h3>
+
 <p>One of the most common uses of a loop is to iterate over an array. This means going through the array and being able to do something with each element of the array.</p>
 
+<a id='section9-6'></a>
 <em><strong>for loop</em></strong>
+
+[back to index](#section0)
 
 
 ```js
@@ -585,9 +607,10 @@ for (let i = 0; i < animalArray.length; i++){
 
 ``` 
 
-
+<a id='section9-7'></a>
 <em><strong>while loop</em></strong>
 
+[back to index](#section0)
 
 ```js
 Result Skip Results Iframe
@@ -606,8 +629,10 @@ while (counter < animalArray.length){
 
 ``` 
 
-
+<a id='section9-8'></a>
 <em><strong>forEach loop</em></strong>
+
+[back to index](#section0)
 <p>We will cover one of the most used ways to iterate over arrays, and that is the forEach loop. It is preferable to the others due to readability.</p>
 
 <p>The .forEach() is an array method that iterates through the array and has access to each element of the array, but in a bit cleaner and more readable way than the other two approaches.</p>
