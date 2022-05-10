@@ -5,6 +5,10 @@
 ## Pre-work
 
 * [Pre-work readme](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/pre-work.md)
+* [Javascript](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/javascript.md)
+* [HTML and CSS](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/html-%26-css.md)
+* [Git & GitHub](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/git-%26-github.md)
+* [Assesments](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/assesments.md)
 ## Week 1
 
 ![]()
