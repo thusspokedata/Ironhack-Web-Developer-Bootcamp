@@ -99,9 +99,122 @@
 <p>.toUpperCase() is a method of string data types in JavaScript that allows you to change all the letters in a string to their uppercase version.</p>
 
 <h3>Accessing a substring</h3>
-<em>.indexOf(substring)</em>
+<em><strong>.indexOf(substring)</strong></em>
 <p>JavaScript has a cool indexOf() method that returns the index of a particular character/string occurrence. If the substring was not found, it returns -1. To use it you just need to put the character or characters string you want to know the index of inside the () of indexOf() as shown below.</p>
 
-<em>.slice(start, end)</em>
+<em><strong>.slice(start, end)</strong></em>
 <p>Found in the official MDN docs, the slice() method extracts a part of a string and returns it as a new string, without modifying the original string.</p>
 
+<h3>A boolean as a data type</h3>
+<p>Boolean is a type of data that can have two different values: true or false.</p>
+
+<p>
+
+:star: The difference between == and === is that === checks, besides if the two values are the same, if the type of the value is the same. Thus, is always recommended (and a best practice) to use ===. Same goes for !==</p>
+
+<h3>Logical operators: AND, OR, and NOT</h3>
+<p>The logical operators are used to combine simple relational statements into more complex expressions. They are typically used with boolean values. This means they go hand by hand with conditional statements, which we use daily, and soon we will know how to use them in programming as well.</p>
+
+<h3>Truthy and Falsy</h3>
+<p>JavaScript, and many other languages, support boolean data types that could be true or false. In addition to that, everything in JavaScript has an implicit boolean value that can be truthy or falsy. When you say that a value is truthy in JavaScript, it doesn’t mean that the value is true. Instead, it means that the value will result as true when evaluated in a boolean context.</p>
+<p>Correspondingly, when you say a value is falsy in JavaScript, it means the value translates to false when evaluated in a Boolean context.</p>
+
+```js
+        0; // <-- The Number zero
+
+        (''); // <-- An empty String
+
+        false; // <-- The Boolean value: false
+
+        undefined;
+
+        null;
+
+        NaN;
+
+```
+  
+ <p>
+
+The last three values shown above: <strong>undefined</strong>, <strong>null</strong> and <strong>NaN</strong> represent different data types in JS and are each applied in a particular scenario. This might sound confusing right now and you will learn more about them during the course, but here is a little intro to what each means and when you might encounter them.</p>
+
++ <strong>undefined</strong> is a value, automatically set by JS, to a variable that was declared, but not initialized with a value.
++ <strong>null</strong> is a type of data in JS that points, generally intentional, to a non-existing value.
++ <strong>NaN</strong> or Not a Number is commonly the result of trying to apply Number methods to data types that are not numbers.
+
+![MDN - Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+![Truthy and Falsy: When All is Not Equal in JavaScript](https://www.sitepoint.com/javascript-truthy-falsy/)
+  
+<h3>The if statement</h3>
+<p>The if statement (or conditional block) executes a block of instructions if a specified condition is true. The condition is an expression that evaluates to true or false.</p>
+  
+```js 
+  if (condition) {
+  // statements
+}
+```
+<h3>The else statement</h3>
+<p>The else statement is executed when the if statement condition is false.</p>
+
+
+```js
+let age = 25;
+
+let isUnderEighteen = age < 18;
+
+ 
+
+if (isUnderEighteen) {
+
+  console.log("Sorry! You can't enter :( ");
+
+} else {
+
+  console.log('Welcome to the night club!');
+
+}
+
+ 
+
+// console output:
+
+// 'Welcome to the night club!'
+```
+
+<h3>The else if statements</h3>
+<p>To be able to chain multiple conditions, we use <em>else if</em> statements. The <strong>else if</strong> statement is executed when the previous <strong>if</strong> or <strong>else if</strong> statement condition is false.</p>
+
+```js
+if (condition1) {
+  // statements
+} else if (condition2) {
+  // statements
+} else if (condition3) {
+  // statements
+} else {
+  // if all above turn to be false,
+  // this block of code will be executed
+}
+```
+
+<h3>The switch statement</h3>
+<p>The switch statement evaluates an expression, matching the expression’s value to a case clause, and executes statements (instruction blocks) associated with that case.</p>
+
+
+```js
+switch (expression) {
+  case value1:
+    // statements executed when the result of expression matches value1
+    break;
+  case value2:
+    // statements executed when the result of expression matches value2
+    break;
+  ...
+  case valueN:
+    // statements executed when the result of expression matches valueN
+    break;
+  default:
+    // statements executed when none of the values match the value of the expression
+    break;
+}
+``` 
