@@ -652,3 +652,40 @@ animalArray.forEach(arrayElement => {
   console.log(`option 2: ${arrayElement}`);
 });
 ``` 
++ ![Mozilla Developer Network Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
++ ![JavaScript Array Methods: .unshift(), .shift(), .push(), and .pop()](https://www.bennadel.com/blog/1796-javascript-array-methods-unshift-shift-push-and-pop.html)
+
+<h3>Arrays as arguments</h3>
+
+<p>Although we used mostly strings and numbers as function arguments so far, arguments can have any type. Let’s see an example of passing an array as an argument:</p>
+
+```js
+
+// declare the function-array as parameters:
+function printElements (someArray){
+  for(let i=0; i<someArray.length; i++){
+    console.log(`Element: ${someArray[i]}`)
+  }
+}
+
+
+// example 1:
+// invoke the function - pass an array as the parameter:
+printElements(["hello", "kitty", "pizza", 3, 78, false]); 
+// Element: hello
+// Element: kitty
+// Element: pizza
+// Element: 3
+// Element: 78
+// Element: false
+
+
+// example 2:
+const funnyArray = ["dog", 4, "miami", true];
+printElements(funnyArray);
+// Element: dog
+// Element: 4
+// Element: miami
+// Element: true
+
+``` 
