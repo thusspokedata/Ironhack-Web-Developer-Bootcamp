@@ -447,7 +447,7 @@ A function can only return one value, but the type of that value can be any: str
 
 
 
-<a id='section8'></a>
+<a id='section9'></a>
 <h2>JS | Basic data types: Arrays</h2>
 
 [back to index](#section0)
