@@ -3,6 +3,8 @@
 + [Linux Installation](#section1)
 + [Mac OS Installation](#section2)
 + [Command Line](#section3)
++ [Advanced terminal usage](#section4)
++ [Visual Studio Code basics](#section5)
 
 <a id='section1'></a>
 <h1>Linux Installation</h1>
@@ -244,3 +246,114 @@ $ rm -rf my-files
 <img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/command-line-cheat-sheet-large01.png" />
 
 
+
+<a id='section4'></a>
+<h2>Advanced terminal usage</h2>
+
+[Back to Index](#section0)
+
+<h3>ZSH Advantages (over bash)</h3>
+
+**ZSH offers more features than bash, such as:**
+
++ autocompletion,
++ spelling correction,
++ right prompt,
++ aliases,
++ syntax highlighting,
++ path expansion,
++ clever history,
++ easy customization.
+
+<a id='section5'></a>
+<h2>Visual Studio Code basics</h2>
+
+[Back to Index](#section0)
+
+<p>**Visual Studio Code** is a lightweight but powerful source code editor that runs on your desktop and is available for Windows, macOS, and Linux. It comes with built-in support for JavaScript, TypeScript, and Node.js, and it has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).</p>
+
+<h3>Search a file on the folder tree</h3>
+
+<p>If you press Cmd⌘+P (for macOS) or Control+P (for Linux), the Fuzzy Finder will pop up. It will let you quickly search for any file in any directory inside your project by typing parts of the path.</p>
+
+<h3>Must-have VSCode Extensions</h3>             
+<ul>
+ <li>Code Snippets: <a href="https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets">VS Code JavaScript (ES6) snippets</a></li>
+<li>Syntax Highlighting: <a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel">Babel JavaScript
+</a></li>
+<li>Linter Extensions: Linting is the process of running a program that analyses the code for potential errors. Linter programs automatically find basic mistakes and tell you where they are and how to fix them. One of the most used by the VSCode community is: </li>
+ <ul>
+   <li><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint.</a>
+ </ul>
+<li>Node Extensions
+ <ul>
+   <li><a href="https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script">npm</a></li>
+   <li><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense">npm Intellisense</a></li>
+   <li><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">Path Intellisense</a></li>
+  </ul>
+<li>Formatting (There are other extensions for formatting, like Beautify, but we recommend installing this one)</li>
+  <ul>
+   <li><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a></li>
+  </ul>
+<li>One essential extension you will need for the first part of the course is Live Server. This will allow you to easily see your webpage in the browser and all your changes will be automatically updated there.</li>
+  <ul>
+   <li><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a></li>
+  </ul> 
+<li>Eventually in your code you will be nesting statements and using lots of brackets and parenthesis. This extension will bring some color so you can easily identify the matching ones.</li>
+  <ul>
+   <li><a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2">Bracket Pair Colorizer</a></li>
+  </ul>
+ 
+<a id='section5'></a>
+<h2>Advanced Linux OS installations</h2>
+
+[Back to Index](#section0)
+ 
+
+ <h3>Step #1: Install nvm</h3>
+<p>**nvm** is a terminal command that allows you to install and change between different versions of Node.js. Usually, your system can have only one version of Node.js installed at one time. With **nvm**, you can switch to a newer version, try some new features, and then back to an older version for your more serious projects.</p>
+
+**Run these commands one by one in your terminal:** 
+ 
+<p>$ mkdir ~/.nvm</p>
+<p>$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash</p>
+ 
+**Use your editor to open your terminal settings file (.zshrc or .bash_profile):**
+ 
+ <p>$ code ~/$([ -n "$ZSH_VERSION" ] && echo ".zshrc" || echo ".bash_profile")</p>
+
+In your editor, copy/paste these lines and save:
+ 
+ ```bash
+ export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+ ```
+** Close and reopen all your terminal windows.**
+
+<h3>Step #2: Install Node.js</h3>
+**Run this command in your terminal to install the latest version of Node.js.**
+
+<p>$ nvm install node</p>
+ 
+<h3>Step #3: Install MongoDB on Ubuntu (all versions - 14.O4, 16.04, 18.04)</h3>
+<p>MongoDB is the database we will be teaching in the course. Every app needs a database to store its information. There are many different databases, each with its pros and cons — more on this during the course.</p>
+ 
+**1) Add the key to authenticate packages**
+
+<p>$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4</p>
+ 
+**2) Install Deb Package (Debian and Ubuntu)**
+
+ <p>buscarla en el repositorio</p>
+ 
+<p>sudo apt-get update</p>
+<p>sudo apt-get update</p>
+<p>sudo apt-get install -y mongodb-org</p>
+<p>$ sudo service mongod start</p>
+<p>mongo</p>
+ 
+<h3>Step #4: Install MongoDB Compass</h3>
+
++[Visit the Download and Install Compass page.](https://www.mongodb.com/docs/compass/master/install/)
