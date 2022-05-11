@@ -97,7 +97,7 @@
 * \<body> tag The \<body> tag contains all the visible elements which will be presented to the users. There can be only one \<body> element in an HTML document.
 
 
-  <h3>HTML structure through DOM tree</h3>
+<h3>HTML structure through DOM tree</h3>
   
 <p>The Document Object Model (DOM) is a cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document. The objects can be manipulated programmatically, and any visible changes are occurring as a result may then be reflected in the display of the document.</p>
   
@@ -128,15 +128,15 @@
   <li>inline level elements.</li>
 </ol>
   
-<img src="block-vs-inline-elements.png" />
+<img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/block-vs-inline-elements.png" />
           
 <p>A <b>block level element begins a new line on the webpage</b> and, if no width is set, <b>extends the full width of the available horizontal space of its parent element.</b></p>
   
-<img src="block-elements.png" />
+<img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/block-elements.png" />
   
 <p><b>Inline elements</b> flow like text. They <b>don’t start a new line</b> and only <b>take up as much width as necessary.</b></p>
 
-<img src="inline-elements.png" />
+<img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/inline-elements.png" />
   
 The most used block level elements are:
 
@@ -157,14 +157,14 @@ The most used block level elements are:
   
 <p>In addition, semantic HTML is vital to a website’s <a href="https://searchengineland.com/guide/what-is-seo">SEO</a> (Search Engine Optimization). When an SEO crawler such as Google’s looks at your website, it sees something like <a href="https://www.browseo.net/?url=http%3A%2F%2Fwww.cnn.com">this</a>. It doesn’t infer meaning based on what it sees; it infers meaning based on tags and attributes.</p>  
   
-<img src="semantic-layout-tag.png" />  
+<img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/semantic-layout-tag.png" />  
   
   
 <h3>The <code>&lt;table&gt;</code> tag</h3>
   
 <p>The <code>&lt;table&gt;</code> tag is used to organize tabular data in different rows and columns.</p>
   
-<img src="table.png" />
+<img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/table.png" />
 
 * \<table>:
   * is a block level element
@@ -196,7 +196,7 @@ The most used block level elements are:
   
 **Difference between td and th:**
 
-<p>The main difference between td and th is that th is used just for titles and headers of the table, while td is used for the content.</p>
+  <p>The main difference between <em>td</em> and <em>th</em> is that <b>th</b> is used just for titles and headers of the table, while <b>td</b> is used for the content.</p>
   
  <br/>
   
@@ -205,4 +205,33 @@ The most used block level elements are:
 * ![Let’s talk about semantics](http://html5doctor.com/lets-talk-about-semantics/)
   
   
+<h2>HTML | Inline level elements</h2>
+
+<h3>Inline Elements</h3>
+
+<p><b>Inline elements</b> flow like text. They don’t start a new line and they are shown right next to the previous element.</p>
+<p>Also, an <b>inline element will occupy only the size of its content.</b></p>
+
+**The most used inline level elements are:**
+
+* image tag: \<img>
++ anchor tag to display links: \<a>*
++ inline text wrapper: \<span>
++ input tag: \<input> (will be covered together with forms in a separate lesson)
++ textarea tag: \<textarea> (will be covered together with forms in a separate lesson)
++ button tag: \<button> (will be covered together with forms in a separate lesson)
++ line break tag: \<br>*
++ italic text: \<i>*
++ italic text with emphasis: \<em>*
++ bold text: \<b>*
++ bold text with emphasis: \<strong>*
++ small text: \<small>*
+
+\* These are inline text semantics used to define the meaning or style of a specific word or line or some part of the text. More about these in the later part of this lesson.
   
+<h3>Extra resources</h3>
+
+* ![Ironhack Inline](https://my.ironhack.com/cohorts/61a7b19bfa82e1002c5383dd/lms/courses/course-v1:IRONHACK+WDPREWORK55+MASTER/modules/ironhack-course-chapter_3/units/ironhack-course-chapter_3-sequential_1-vertical_2)
+* ![Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)
+* ![How Google Scans your website](https://neilpatel.com/blog/the-way-google-scans/)
+* ![HTML5Doctor](http://html5doctor.com/) - Great for picking tags
