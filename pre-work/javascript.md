@@ -689,3 +689,151 @@ printElements(funnyArray);
 // Element: true
 
 ``` 
+
+<a id='section10'></a>
+<h2>JS | Basic data types: Objects</h2>
+
+[back to index](#section0)
+
+
+<h3>Introduction</h3>
+<p><em>Objects</em> in JavaScript can be described as a collection composed of key-value pairs.</p>
+
+**In programming, a key-value pair is a set of two linked data items:**
+
+<ul>
+  <li>the key is a string that identifies a property of an object,</li> 
+  <li>the value is the content associated with the indicated key.</li> 
+</ul>
+
+<p>The <em>keys are also unique in one object</em>, and one key will always have just one value associated with it. This value can be of any type: string, number, boolean, array, or even another object.</p>
+
+<h3>Object - what is it?</h3>
+
+<p><b>Objects</b> are collections of properties and each property is represented with key-value pair. The representation of an object in JavaScript is curly braces {}.</p>
+**Syntax**
+
+```js
+let objectName = {
+  key1: value1,
+  key2: value2,
+  key3: value3
+};
+
+```  
+
+<p><b>Keys</b> are always strings, but you don’t need to wrap these keys in quotes when defining an object since it will be done for you when your code compiles (compiling - simplified - is the process of translating your code to computer understandable zeros and ones so it can be executed):</p>
+
+```js
+{
+  name: 'Ironhack';
+}
+```  
+<p>Will be translated into:</p>
+
+```js
+{
+  "name": "Ironhack"
+}
+```  
+
+<h3>Why should we use objects?</h3>
+
+<p>Objects are useful to group values that belong together into a single unit.</p>
+
+<p>By using this object notation, your code will be much more clear and easy to understand. The presentation of information in an object way is the more readable one and the maintainability of the code will be much easier.</p>
+
+<h3>Adding properties to the object</h3>
+<p>you can add as many properties as you want inside an object, all you need to do is separate them with a comma.</p>
+
+<p>To add a new property to an object that has already been declared you simply reference the new key you want to add either with dot notation or bracket notation and assign the new value, like shown below:</p>
+
+```js
+
+let olympicRecords = {
+  athletics100Men: 'Justin Gatlin',
+  athleticsLongJumpMen: 'Mike Powell'
+};
+
+// objectName.key = value
+olympicRecords.swimming200Men = 'Michael Phelps';
+``` 
+
+<h3>Update Values</h3>
+
+<p>The process couldn’t be more straightforward than this:</p>
+
+```js
+olympicRecords.athletics100Men = 'Usain Bolt';
+
+``` 
+
+<h3>Removing Properties</h3>
+
+<p>Let’s suppose we have made a mistake and added a new key, the Double Ollie world record:</p>
+
+```js
+olympicRecords.doubleOllie = 'Chris Chann';
+
+``` 
+
+<p>we can use the delete operator to remove keys from an object. It is as simple as specifying which key you want to remove:</p>
+
+```js
+delete olympicRecords.doubleOllie;
+
+``` 
+
+
+<h3>List Properties</h3>
+
+<p>This is extremely useful when you work with a huge object and you are not sure what properties it has. <b>Object.keys()</b> receives an object as an argument. In our case it would be:</p>
+
+```js
+let allKeys = Object.keys(olympicRecords);
+
+console.log(allKeys);
+
+// console output:
+// [ "athletics100Men",
+//   "athleticsLongJumpMen",
+//   "swimming200Men" ]
+
+``` 
+
+<h3>Loops in objects</h3>
+
+<p>Although you can use Object.keys()and for or while loops, In JavaScript, there is a loop designed explicitly for iterating over objects. This loop is called <b>for..in</b>.</p>
+
+```js
+//    placeholder - can be any word (key, record, blah, pizza but pick meaningful names)
+//        |
+for (let key in olympicRecords) {
+  console.log(key);
+}
+
+// console:
+// athletics100Men
+// athleticsLongJumpMen
+// swimming200Men
+``` 
+
+<h3>The in operator</h3>
+
+<p>The <b>in</b> operator is used to verify if a certain property exists in an object. It returns a boolean.</p>
+
+```js
+let user = {
+  name: 'Ana',
+  age: 27
+};
+
+console.log('name' in user); // => true
+console.log('age' in user); // => true
+console.log('course' in user); // => false
+
+``` 
+
+<h3>Cheatsheet</h3>
+
+<img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/object-cheatsheet.png" />
