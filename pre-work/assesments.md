@@ -69,3 +69,44 @@ function pickOdd (arr) {
   return oddNumbers; // do not remove or change this line
 }
 
+``` 
+<h3>4.1 Pineapple Pizza Filter</h3>
+
+```js
+
+const pizzas = [
+    { type: 'pineapple', size: 'M'},
+    { type: 'pepperoni', size: 'S'},
+    { type: 'mushrooms', size: 'L'},
+    { type: 'pineapple', size: 'S'},
+  ];
+
+console.log("---------------my soltuion--------------------")
+
+function filterPizzas(pizzas) {
+  let newPizzaList = [];
+  for (let pizza in pizzas) {
+    if (pizzas[pizza].type !== 'pineapple')
+      newPizzaList.push(pizzas[pizza])
+  }
+  return newPizzaList
+}
+
+console.log("------------solution ironhack-----------------------")
+
+function filterPizzas(pizzas) {
+  const filteredPizzas = [];
+  
+  for (let i = 0; i < pizzas.length; i++) {
+    const pizza = pizzas[i];
+    const pizzaType = pizza.type;
+    const isNotPineapple = pizzaType !== "pineapple";
+    
+    if (isNotPineapple) {
+      filteredPizzas.push(pizza);
+    }
+  }
+  
+  return filteredPizzas;
+}
+
