@@ -20,6 +20,8 @@
 * [for loop](#section9-6)
 * [while loop](#section9-7)
 * [forEach loop](#section9-8)
+* [](#section10)
+* [JS | Nested data structures - arrays & objects](#section11)
 
 
 
@@ -837,3 +839,9 @@ console.log('course' in user); // => false
 <h3>Cheatsheet</h3>
 
 <img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/object-cheatsheet.png" />
+
+<a id='section11'></a>
+<h2>JS | Nested data structures - arrays & objects</h2>
+
+[back to index](#section0)
+
