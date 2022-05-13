@@ -5,6 +5,7 @@
 + [Command Line](#section3)
 + [Advanced terminal usage](#section4)
 + [Visual Studio Code basics](#section5)
++ [Advanced Linux OS installations](#section6)
 
 <a id='section1'></a>
 <h1>Linux Installation</h1>
@@ -304,7 +305,7 @@ $ rm -rf my-files
    <li><a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2">Bracket Pair Colorizer</a></li>
   </ul>
  
-<a id='section5'></a>
+<a id='section6'></a>
 <h2>Advanced Linux OS installations</h2>
 
 [Back to Index](#section0)
@@ -357,3 +358,55 @@ In your editor, copy/paste these lines and save:
 <h3>Step #4: Install MongoDB Compass</h3>
 
 +[Visit the Download and Install Compass page.](https://www.mongodb.com/docs/compass/master/install/)
+ 
+ 
+ <a id='section7'></a>
+<h2>Advanced Mac OS installations</h2>
+
+[Back to Index](#section0)
+ 
+<h3>Step #1: Install nvm</h3>
+ 
+<p>$ mkdir ~/.nvm</p>
+<p>$ brew install nvm</p>
+
+ <p>$ code ~/$([ -n "$ZSH_VERSION" ] && echo ".zshrc" || echo ".bash_profile")</p>
+ 
+ **In your editor, copy/paste these lines and save:**
+
+```bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+```
+ 
+<h3>Step #2: Install Node.js</h3>
+ 
+* Visit the <a href="https://nodejs.org/en/">Node.js</a> website.
+* Check the version number of the LTS version of Node.js.
+* Run this command in your terminal (replace 12.16.0 with the latest version number):
+ 
+ <p>$ nvm install 12.16.0</p>
+ 
+ <p><b>Sidenote:</b> You can use brew to install node as well.:</p>
+ * <p>brew update</p>
+ * <p>brew install node</p>
+ 
+ <p><b>node -v</b> (to check if Node is installed properly; you should see the version number)</p>
+ <p><b>npm -v</b> (to check if NPM is installed properly; you should see the version number)</p>
+ 
+ <h3>Step #3: Install MongoDB on MAC OS</h3>
+ 
+<p>$ brew tap mongodb/brew</p>
+<p>$ brew install mongodb-community</p>
+<p>:warning: You shouldn’t have to start your database again after restarting your computer but write down the command just in case.</p>
+<p>$ brew services start mongodb-community</p>
+<p>$ mongo</p>
+ 
+ 
+ <h3>Step #4: Install MongoDB Compass</h3>
+ 
+<p>Visit <a href="https://www.mongodb.com/docs/compass/master/install/">the Download and Install Compass page</a>.</p>
+<p>Follow the instructions to install the MongoDB Compass app.</p>
+
+ 
