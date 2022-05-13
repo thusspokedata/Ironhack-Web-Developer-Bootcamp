@@ -6,6 +6,7 @@
 + [Advanced terminal usage](#section4)
 + [Visual Studio Code basics](#section5)
 + [Advanced Linux OS installations](#section6)
++ [Advanced MAC OS installations](#section7)
 
 <a id='section1'></a>
 <h1>Linux Installation</h1>
@@ -389,8 +390,9 @@ export NVM_DIR="$HOME/.nvm"
  <p>$ nvm install 12.16.0</p>
  
  <p><b>Sidenote:</b> You can use brew to install node as well.:</p>
- * <p>brew update</p>
- * <p>brew install node</p>
+ 
+ <p>$ brew update</p>
+ <p>$ brew install node</p>
  
  <p><b>node -v</b> (to check if Node is installed properly; you should see the version number)</p>
  <p><b>npm -v</b> (to check if NPM is installed properly; you should see the version number)</p>
@@ -404,9 +406,10 @@ export NVM_DIR="$HOME/.nvm"
 <p>$ mongo</p>
  
  
- <h3>Step #4: Install MongoDB Compass</h3>
- 
-<p>Visit <a href="https://www.mongodb.com/docs/compass/master/install/">the Download and Install Compass page</a>.</p>
-<p>Follow the instructions to install the MongoDB Compass app.</p>
+<h3>Step #4: Install MongoDB Compass</h3>
+<ul>
+ <li><p>Visit <a href="https://www.mongodb.com/docs/compass/master/install/">the Download and Install Compass page</a>.</p></li>
+ <li><p>Follow the instructions to install the MongoDB Compass app.</p></li>
+</ul>
 
  
