@@ -135,16 +135,22 @@ $ touch index.html # touch is a terminal command that allows us to create files
 $ code index.html # this line allows us to open index.html using VS Code
 ```
 
-**Step #7: Install Google Chrome**
+<p>:warning: What could have gone wrong?:</p>
 
+In case you got an error after code index.html that says code: **command not found**, that means that you didn’t drag VS Code app to the Application folder. Go ahead and put it to the right place, and try to do open the file again (type again code index.html). If it still doesn’t work, do the next:
+
+<ol>
+ <li>Open VS Code app (double click on the icon)</li>
+ <li>Open the Command Palette via Shift + Command + p (⇧⌘p) and type shell command to find the Shell Command: Install 'code' command in PATH.</li>
+<li>Close VS Code and go to terminal and try opening index.html again.</li>
+
+**Step #7: Install Google Chrome**
 
 + Visit https://www.google.com/chrome/ and click on Download Chrome
 + In the dialogue box, click on accept and install. A compressed file will then be downloaded from the site.
 + Click on it and follow the installation instructions.
 
 **Step #8: Install Git**
-
-
 
 ```
 $ git --version
