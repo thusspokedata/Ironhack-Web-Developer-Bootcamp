@@ -110,3 +110,52 @@ function filterPizzas(pizzas) {
   return filteredPizzas;
 }
 
+```  
+
+
+<h3>6.1 - SORT PRODUCTS</h3>
+
+```js 
+
+console.log('-----------------------my solution----------------------')
+function sortProducts (matrix) {
+  var tech = [];
+  var food = [];
+  var result = {tech: [], food: []}
+  for (const  mat of matrix) {
+    for (const m of mat) {
+      m.category === 'tech' ? result.tech.push(m) : result.food.push(m); 
+    }
+  }
+  return result
+}
+
+console.log('-----------------------solution Ironhack----------------------')
+
+
+function sortProducts (matrix) {
+  const tech = [];
+  const food = [];
+  
+  for (let i = 0; i < matrix.length; i++) {
+    const arr = matrix[i];
+
+    for (let j = 0; j < arr.length; j++) {
+      const product = arr[j];
+      
+      if ( product.category === 'tech') {
+        tech.push(product);
+      }
+      else if (product.category === 'food') {
+        food.push(product);
+      }
+    };
+  };  
+  
+  return {
+    tech: tech,
+    food: food,
+  }
+}
+
+
