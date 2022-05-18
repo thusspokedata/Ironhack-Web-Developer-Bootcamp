@@ -1,4 +1,4 @@
-<h1>HTML & CSS</h1>
+<h1>HTML</h1>
 
 <a id='section0'></a>
 <h2>Table of contents</h2>
