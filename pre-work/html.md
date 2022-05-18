@@ -22,7 +22,7 @@
 * [](#section9-8)
 
 <a id='section1'></a>
-<h2>Introduction to the frontend</h3>
+<h2>Introduction to the frontend</h2>
 
 <p><b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> is a group of technologies and languages that compose the frontend of your web applications.</p>
 <p>The term <b>frontend</b> is reserved for all the parts of your app that users can see and interact with.</p>
@@ -43,7 +43,7 @@
 
 
 <a id='section2'></a>
-<h2>HTML | Introduction</h3>
+<h2>HTML | Introduction</h2>
 
 [back to Index](#section0)
 
@@ -104,7 +104,7 @@
 <p>The <b>DOM (Document Object Model)</b> represents how the browser reads the HTML document. After the browser reads the HTML document, it creates a representational tree called the Document Object Model and defines how that tree can be accessed.</p>
   
   
-  <h3>Extra resources</h3>
+ <h3>Extra resources</h3>
 
 * ![HTML - MDN Tutorial](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 * ![Ancestor, Descendant, Sibling, Parent, Child – Lynda intro course (video)](https://www.linkedin.com/learning/css-selectors-2/the-html-family-tree-parents-children-ancestor-descendant-siblings?autoplay=true)
@@ -119,7 +119,7 @@
   
 <h3>Block vs. Inline elements</h3>
   
-<p>So far, we learned that <b>within the \<body> element, we write all the elements we want to display on our website.</b></p>
+<p>So far, we learned that <b>within the <strong><code>&lt;body&gt;</code></strong> element, we write all the elements we want to display on our website.</b></p>
 
 <p>Before we move forward, let’s first mention that there are overall two different groups of tags/HTML elements:</p>
 
