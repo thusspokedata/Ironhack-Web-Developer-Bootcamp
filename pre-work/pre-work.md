@@ -2,6 +2,7 @@
 ### Table of Contents
 + [Linux Installation](#section1)
 + [Mac OS Installation](#section2)
++ [Windows OS installations](#section8)
 + [Command Line](#section3)
 + [Advanced terminal usage](#section4)
 + [Visual Studio Code basics](#section5)
@@ -159,6 +160,46 @@ $ git --version
 $ git config --global user.name "John Doe"
 $ git config --global user.email "johndoe@example.com"
 ```
+ 
+<a id='section8'></a>
+<h1>Windows OS installations</h1>
+
+[Back to Index](#section0)
+ 
+<h3>Step #1: Update your computer</h3>
+ 
+<ul>
+ <li>Press the Windows key and type <em>check for</em> to search.</li>
+ <li>Click on the <em>Check for updates</em> result.</li>
+ <li>Follow the instructions to update and restart your computer.</li>
+ <li>Repeat the previous three steps until you have no more updates</li>
+<ul> 
+ 
+ <h3>Step #2: Install Visual Studio Code</h3>
+ 
+<p>VS Code’s site will detect your <a href="https://en.wikipedia.org/wiki/Operating_system" target="_blank" rel="noopener noreferrer">OS</a> automatically. Visit <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a> and download it by clicking on the <em>Download</em> button.</p>
+ 
+<ul>
+ <li class="raw">Download the installer from <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a>.</li>
+ <li class="raw">Click on the installer to open it.</li>
+ <li class="raw">Follow the installation steps to install VS Code on your computer.</li>
+ <li class="raw">When you click <em>Finish</em>, it will open the VS Code automatically.</li>
+</ul>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 <a id='section3'></a>
 <h1>Command Line</h1>
