@@ -173,33 +173,48 @@ $ git config --global user.email "johndoe@example.com"
  <li>Click on the <em>Check for updates</em> result.</li>
  <li>Follow the instructions to update and restart your computer.</li>
  <li>Repeat the previous three steps until you have no more updates</li>
-<ul> 
+</ul> 
  
- <h3>Step #2: Install Visual Studio Code</h3>
+<h3>Step #2: Install Visual Studio Code</h3>
  
 <p>VS Code’s site will detect your <a href="https://en.wikipedia.org/wiki/Operating_system" target="_blank" rel="noopener noreferrer">OS</a> automatically. Visit <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a> and download it by clicking on the <em>Download</em> button.</p>
  
 <ul>
- <li class="raw">Download the installer from <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a>.</li>
- <li class="raw">Click on the installer to open it.</li>
- <li class="raw">Follow the installation steps to install VS Code on your computer.</li>
- <li class="raw">When you click <em>Finish</em>, it will open the VS Code automatically.</li>
+ <li>Download the installer from <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a>.</li>
+ <li>Click on the installer to open it.</li>
+ <li>Follow the installation steps to install VS Code on your computer.</li>
+ <li>When you click <em>Finish</em>, it will open the VS Code automatically.</li>
 </ul>
  
  
+ <h3>Step #3: Install Google Chrome</h3>
  
+ <h3>Step #4: Install Git</h3>
  
+<ol>
+<li>Download the latest <a href="https://gitforwindows.org/" target="_blank" rel="noopener noreferrer">Git for Windows installer</a>.</li>
+<li>When you have successfully started the installer, you should see the Git Setup wizard screen. Follow the <em>Next</em> prompts to complete the installation. As default options are pretty sensible for most users you should stick to the default recommended settings provided by the installer.</li>
+<li>Once you click <em>Install</em>, Git and Git Bash will be installed.</li>
+<li>Once installed, press the Windows key and type <em>Git Bash</em> to search.</li>
+<li>Select <em>Git Bash</em> by pressing the <em>right-click</em>, then select <em>Pin to taskbar</em> to create a shortcut for easy access.</li>
+</ol>
  
+**Basic configuration**
  
+<p>The first thing you should do after installing Git is to set your user name and email address (meaning, you are establishing yourself as a user).</p>
+
+<p>You will be using the Git Bash terminal for accessing files and folders, as well as using <strong>git</strong> and other tools you will learn during the bootcamp.</p>
  
+<ul>
+<li>Press the Windows key and type <strong><em>git bash</em></strong> to search.</li>
+<li>Right-click the <strong><em>Git Bash</em></strong> result to <strong><em>Run as administrator</em></strong>.</li>
+<li>In the Git Bash window, paste and run the following two lines, one after another: (<strong>without the <code>$</code> and replacing “John Doe” and <a href="mailto:%22johndoe@example.com">"johndoe@example.com</a>" with your info</strong>):</li>
+</ul>
  
- 
- 
- 
- 
- 
- 
- 
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email "johndoe@example.com"
+```
 
 <a id='section3'></a>
 <h1>Command Line</h1>
