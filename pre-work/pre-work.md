@@ -8,6 +8,7 @@
 + [Visual Studio Code basics](#section5)
 + [Advanced Linux OS installations](#section6)
 + [Advanced MAC OS installations](#section7)
++ [Advanced Windows OS installations](#section9)
 
 <a id='section1'></a>
 <h1>Linux Installation</h1>
@@ -473,5 +474,10 @@ export NVM_DIR="$HOME/.nvm"
  <li><p>Visit <a href="https://www.mongodb.com/docs/compass/master/install/">the Download and Install Compass page</a>.</p></li>
  <li><p>Follow the instructions to install the MongoDB Compass app.</p></li>
 </ul>
-
  
+<a id='section10'></a>
+<h2>Advanced Windows OS installations</h2>
+
+[Back to Index](#section0)
+ 
+https://my.ironhack.com/cohorts/61a7b19bfa82e1002c5383dd/lms/courses/course-v1:IRONHACK+WDPREWORK55+MASTER/modules/ironhack-course-chapter_2/units/ironhack-course-chapter_2-sequential_3-vertical_2
