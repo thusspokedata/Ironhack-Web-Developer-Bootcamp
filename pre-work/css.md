@@ -6,13 +6,13 @@
 + [CSS: Cascading Style Sheets](#section1)
 + [CSS | Rules and Selectors](#section2)
 + [CSS | Font and Text Properties](#section3)
-+ [](#section4)
++ [CSS | Color Properties](#section4)
 + [](#section5)
-+ [](#section6)
++ [CSS | Box Model](#section6)
 + [](#section7)
-+ [](#section8)
-+ [](#section9)
-* [](#section9-1)
++ [CSS | Positioning and Flexbox](#section8)
++ [Guided exercise: IronSkydive - positioning and flexbox](#section9)
+* [HTML | Form Tag](#section10)
 * [](#section9-2)
 * [](#section9-3)
 * [](#section9-4)
@@ -196,17 +196,17 @@ tag-name {
 <p>Overall, it is essential to know that there are <strong>three groups of fonts</strong>:</p>
 
 <ol>
-<li class="raw"><em>serif</em>,</li>
-<li class="raw"><em>sans-serif</em> and</li>
-<li class="raw"><em>monospace</em>.</li>
+<li><em>serif</em>,</li>
+<li><em>sans-serif</em> and</li>
+<li><em>monospace</em>.</li>
 </ol>
 
 <p>Each of these groups has multiple <strong>font families</strong> in it, ex.:</p>
 
 <ul>
-<li class="raw"><em>serif group</em>: Times New Roman, Georgia</li>
-<li class="raw"><em>sans-serif group</em>: Arial, Verdana</li>
-<li class="raw"><em>monospace group</em>: Courier, Lucida</li>
+<li><em>serif group</em>: Times New Roman, Georgia</li>
+<li><em>sans-serif group</em>: Arial, Verdana</li>
+<li><em>monospace group</em>: Courier, Lucida</li>
 </ul>
 
 <em>Sans-serif fonts are considered easier to read than serif fonts.</em>
@@ -342,10 +342,10 @@ text-decoration: red wavy underline;
 <p>The most used values for this property are:</p> 
 
 <ul>
-<li class="raw"><code>none</code>: unsets any text decorations already present. It is the default value for most of the HTML tags.</li>
-<li class="raw"><code>underline</code>: underlines the text.</li>
-<li class="raw"><code>overline</code>: gives the text an overline.</li>
-<li class="raw"><code>line-through</code>: puts a strikethrough over the text.</li>
+<li><code>none</code>: unsets any text decorations already present. It is the default value for most of the HTML tags.</li>
+<li><code>underline</code>: underlines the text.</li>
+<li><code>overline</code>: gives the text an overline.</li>
+<li><code>line-through</code>: puts a strikethrough over the text.</li>
 </ul>
 
 <h3>The text-align property</h3>
@@ -381,13 +381,7 @@ div {
 
 ``` 
 
-<p>The different possible values are:</p>
-
-<ul>
-<li class="raw"><code>left</code>: left justifies the text.</li>
-<li class="raw"><code>right</code>: right justifies the text.</li>
-<li class="raw"><code>center</code>: centers the text.</li>
-<li class="raw"><code>justify</code>: makes the text spread out, varying the gaps in between the words so that all lines of text are the same width.</li>
+<p>The different possible values are:</><code>left</code>: left justifies the te><code>right</code>: right justifies the te><code>center</code>: centers the te><code>justify</code>: makes the text spread out, varying the gaps in between the words so that all lines of text are the same width.</li>
 </ul>
 
 <h3>The text-indent property</h3>
@@ -439,4 +433,117 @@ p {
 <li class="raw"><a href="https://developer.mozilla.org/en/docs/Web/CSS/font-size" target="_blank" rel="noopener noreferrer">MDN Font-Size</a></li>
 <li class="raw"><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units" target="_blank" rel="noopener noreferrer">MDN - CSS Values and unites</a></li>
 <li class="raw"><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals" target="_blank" rel="noopener noreferrer">MDN Fundamental text and styles</a></li>
+</ul>
+
+<a id='section8'></a>
+<h2>CSS | Positioning and Flexbox</h2>
+
+[back to Index](#section0)
+
+<h3>Positioning</h3>
+
+<p>The CSS <code>position</code> property allows you to organize elements on the screen. Position can be:</p>
+
+<ul>
+<li><code>static</code></li>
+<li><code>relative</code></li>
+<li><code>fixed</code></li>
+<li><code>absolute</code></li>
+</ul>
+
+<p>When setting the <code>position</code>, you can use the following properties:</p>
+
+<ul>
+<li><code>top</code></li>
+<li><code>right</code></li>
+<li><code>bottom</code></li>
+<li><code>left</code></li>
+</ul>
+
+<h3><code>position:static</code></h3>
+
+<p>A <code>relative</code> positioned element behaves the same as <code>static</code> unless you add some extra properties. You can adjust the position by setting the <code>top</code>, <code>left</code>, <code>right</code>, and <code>bottom</code> properties.</p>
+
+<p>It will move the element relative to where it would normally occur in the document. Other content will not be adjusted to fit into any gap left by the element.</p>
+
+<h3><code>position:fixed</code></h3>
+
+<p>A fixed element is <em>positioned relatively</em> to the screen of your device - aka viewport (computer, mobile, etc.).</p>
+
+<ul>
+<li>
+<p>The element will always be in the same place, even when you scroll.</p>
+</li>
+<li>
+<p>As with <code>relative</code>, the <code>top</code>, <code>left</code>, <code>right</code>, and <code>bottom</code> properties are used.</p>
+</li>
+</ul>
+
+<h3><code>position:absolute</code></h3>
+
+<p>The <code>absolute</code> position works similarly to a <code>fixed</code> position. However, instead of being positioned relative to the viewport, <strong>it is positioned to the nearest <em>positioned</em> element in the DOM</strong>. That is - to the nearest element with a <code>position</code> other than <code>static</code>.</p>
+
+<p>If there is no ancestor positioned element in the document, it will use the <code>body</code>.</p>
+
+<h3>The basics of Flexbox</h3>
+
+<p>To start using Flexbox you need to write only one line of code inside of your CSS rule: display: flex.</p>
+
+<p>By using this rule on the parent element, it will convert it into a flex container and every direct child of the element will be transformed into it is flex children (elements that will be changed to fit inside the box).</p>
+
+<p>After that, you will want to give your flex container a few directives. For example, how will the elements be organized? How will we position horizontally and/or vertically? If you don’t decide this by yourself, some of these decisions will be made for you by the default values, but let’s have a quick look into what we can do.</p>
+
+<h3>The <code>flex-direction</code> property</h3>
+
+<p>The <code>flex-direction</code> shows the direction on which the contents will be aligned.</p>
+
+<img src="https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/img/flexbox-directions.png" width="500">
+<p><img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_ecf32476fd55b14b23626f070dc18ce0.gif" alt="" class="raw md-image" width="500">
+<img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_e9e1a52befe234c06ab093f7e83b85e9.gif" alt="" class="raw md-image" width="500"></p>
+
+<h3>The <code>justify-content</code> property</h3>
+
+<p>With <code>justify-content</code> we can <strong>horizontally</strong> arrange the items inside the flex container.</p>
+</div>
+
+<img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_8d83d09f81ac2e495fca787946133020.gif" alt="" class="raw md-image" width="500">
+
+<ul>
+<li><code>flex-end</code>: items are positioned on the end of the flex-direction line</li>
+<li><code>center</code>: items are centered along the line</li>
+<li><code>space-between</code>: items are evenly distributed in the line; the first item is on the start line, last item on the end line</li>
+<li><code>space-around</code>: items are evenly distributed in line with equal space around them. Note that visually the spaces aren’t equal since all the items have equal space on both sides. The first item will have one unit of space against the container edge, but two units of space between the next item because that next item has its own spacing that applies.</li>
+<li><code>space-evenly</code>: items are distributed so that the spacing between any two items (and the space to the edges) is equal.</li>
+</ul>
+
+<h3>The <code>align-items</code> property</h3>
+
+<p>This one is a lifesaver. Remember how hard it was to align the elements <strong>vertically</strong>? With <code>align-items</code> you can easily do this. Be careful with this one. If you don’t assign any value to this property, it is <strong>default value will be <code>stretch</code> which stretches the children to fill the whole container</strong>.</p>
+
+<img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7166b023c79602acf89600997bf32acb.gif" alt="" class="raw md-image" width="500">
+
+<ul>
+<li><code>flex-start</code>: cross-start margin edge of the items is placed on the cross-start line</li>
+<li><code>flex-end</code>: cross-end margin edge of the items is placed on the cross-end line</li>
+<li><code>center</code>: items are centered in the cross-axis</li>
+<li><code>baseline</code>: items are aligned such as their baselines align</li>
+</ul>
+
+<p>:exclamation: If you have an image as a flex item(a direct child of the flex container), it will be distorted by the automatic sizing and aligning. To “protect” the dimensions of an image, we need to put it inside a div.</p>
+
+<img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_572b2b1f546ded288cd7592cabf403a1.gif" alt="" class="raw md-image" width="500">
+
+<p>There are <em>many</em> more things you can do with Flexbox. Check out <strong><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener noreferrer">CSS Trick’s Guide</a></strong> and take a look at all the possibilities you have.</p>
+
+<p>To give you some experience with Flexbox and get acquainted with the newly discovered properties, go to <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Flexbox Froggy</a> and put your knowledge to practice.</p>
+
+<h3>Extra Resources</h3>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank" rel="noopener noreferrer">MDN <code>position</code> property</a> - See all the detailed information about the property on its documentation.</li>
+<li><a href="https://medium.freecodecamp.org/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26" target="_blank" rel="noopener noreferrer">How to use the position property in CSS to align elements + video</a></li>
+<li><a href="http://alistapart.com/article/css-positioning-101" target="_blank" rel="noopener noreferrer">CSS Positioning 101</a></li>
+<li><a href="https://www.youtube.com/watch?v=JJSoEo8JSnc" target="_blank" rel="noopener noreferrer">Flexbox - more than basics - video</a></li>
+<li><a href="https://github.com/ohansemmanuel/Understanding-Flexbox" target="_blank" rel="noopener noreferrer">Understanding Flexbox: Everything you need to know</a></li>
+<li><a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Flexbox Froggy</a></li>
 </ul>
