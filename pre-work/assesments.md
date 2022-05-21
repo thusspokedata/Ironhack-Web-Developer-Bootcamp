@@ -119,8 +119,6 @@ function filterPizzas(pizzas) {
 
 console.log('-----------------------my solution----------------------')
 function sortProducts (matrix) {
-  var tech = [];
-  var food = [];
   var result = {tech: [], food: []}
   for (const  mat of matrix) {
     for (const m of mat) {
