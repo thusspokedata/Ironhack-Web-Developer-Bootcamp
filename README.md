@@ -4,13 +4,13 @@
 
 ## Pre-work
 
-* [Prework general things](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/pre-work.md)
-* [Javascript](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/javascript.md)
-* [HTML](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/html.md)
-* [CSS](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/css.md)
-* [Git & GitHub](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/git-%26-github.md)
-* [Assessments](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/assesments.md)
-* [lab-html-exercise](https://github.com/antonio-datahack/Ironhack-Web-Developer-Bootcamp/tree/main/pre-work/lab-html-exercise)
+* [Prework general things](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/pre-work.md)
+* [Javascript](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/javascript.md)
+* [HTML](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/html.md)
+* [CSS](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/css.md)
+* [Git & GitHub](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/git-%26-github.md)
+* [Assessments](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/assesments.md)
+* [lab-html-exercise](https://github.com/thusspokedata/lab-html-exercise)
 ## Week 1
 
 ![]()
