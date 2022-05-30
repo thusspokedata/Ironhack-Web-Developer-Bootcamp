@@ -15,8 +15,8 @@
 
 ![]()
 
-* []()
-* []()
+* [Notes](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week1/day1/readme.md)
+* [lab-javascript-basic-algorithms](https://github.com/thusspokedata/lab-javascript-basic-algorithms)
 * []()
 * []()
 * []()
