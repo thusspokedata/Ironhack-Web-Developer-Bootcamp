@@ -22,6 +22,17 @@ function product(x, y) {
   return x * y
 }
 
+// solution Ironhack:
+
+function product(x, y) {
+  if (typeof x !== "number" || typeof y !== "number" ) {
+    return false;
+  }
+  else {
+    return x * y;
+  }
+}
+
 ```
 Find max of two numbers
 
@@ -43,6 +54,13 @@ output: -7
 
 function maxOfTwoNumbers(a, b) {
   return a > b ? a : b
+}
+
+// solution Ironhack:
+
+function maxOfTwoNumbers(a, b) {
+  if (a > b) return a;
+  else return b;
 }
 ```
 Find max of three numbers
@@ -72,6 +90,11 @@ function maxOfThreeNumbers(a, b, c) {
     return c
   }
 }
+
+// solution Ironhack:
+function maxOfThreeNumbers(a, b, c) {
+   return Math.max(a, b, c);
+}
 ```
 
 Check if number is even
@@ -92,6 +115,15 @@ output: false
 ```js 
 function isEven(num) {
   return num % 2 === 0 ? true : false
+}
+
+// solution Ironhack:
+
+function isEven(num) {
+  if (num % 2 === 0) {
+   return true;
+  }
+  else return false;
 }
 
 ``` 
@@ -121,6 +153,10 @@ function sumArray(numbers) {
   return total
 }
 
+function sumArray(numbers) {
+  return numbers.reduce((total, currentValue) => total + currentValue, 0)
+}
+
 ```
 
 Find max in an array of numbers
@@ -148,6 +184,13 @@ function maxOfArray(numbers) {
   }
   return maxNum
   // your code
+}
+
+// solution Ironhack:
+
+function maxOfArray(numbers) {
+  if (numbers.length === 0) return false;
+  return Math.max(...numbers);
 }
 
 ```  
@@ -182,6 +225,19 @@ function longestString(strings) {
   return string
 }
 
+// solution Ironhack:
+function longestString(strings) {
+  if (strings.length === 0) return false;
+  let longest = strings[0];
+  
+  for (let i = 0; i < strings.length; i++) {
+    if (typeof strings[i] !== "string") continue;
+    if (strings[i].length > longest.length) longest = strings[i];
+  }
+  
+  return longest;
+}
+
 ``` 
 
 Get the full name
@@ -213,10 +269,16 @@ input: dataStudent
 output: 'mike oliveira'
 
 ```
-
+// why I just did it?????? 
 function getFullName(personObj) {
   let fullName = personObj[Object.keys(personObj)[0]] + " " +personObj[Object.keys(personObj)[1]]
   return fullName
+}
+
+// Solution Ironhack:
+
+function getFullName(personObj) {
+  return `${personObj.firstName} ${personObj.lastName}`;
 }
 
 ```
@@ -243,6 +305,12 @@ output: false
 
 function doesWordExist(wordsArr, word) {
   return wordsArr.includes(word)
+}
+
+// Solution Ironhack:
+function doesWordExist(wordsArr, word) {
+  if (wordsArr.includes(word)) return true;
+  else return false;
 }
 
 ```
@@ -281,6 +349,19 @@ function findUnique(wordsArr) {
   }
 }
 }
+
+// solution Ironhack:
+function findUnique(wordsArr) {
+  if (wordsArr.length === 0) return false;
+  
+  for (let word of wordsArr) {
+    if (wordsArr.indexOf(word) === wordsArr.lastIndexOf(word)) {
+      return word;
+    }
+  }
+  
+}
+
 ```
 
 Find max in a two-dimensional array of numbers
@@ -321,6 +402,21 @@ function maxTwoDimArray(matrix) {
       if (matrix[i][e] > greatestNum) greatestNum = matrix[i][e]
   } return greatestNum
 }
+
+// solution Ironhack:
+
+function maxTwoDimArray(matrix) {
+  if (matrix.length === 0) return false;
+  
+  let highestNum = 0;
+  
+  matrix.forEach(element => {
+    element.forEach(number => {
+      if (number > highestNum) {
+        highestNum = number;
+      }
+    });
+  });
 
 ``` 
 
