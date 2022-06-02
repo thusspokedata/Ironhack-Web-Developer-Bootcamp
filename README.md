@@ -20,7 +20,7 @@
 * [day1: lab-javascript-basic-algorithms](https://github.com/thusspokedata/lab-javascript-basic-algorithms)
 * [day2: lab-javascript-functions-and-arrays](https://github.com/thusspokedata/lab-javascript-functions-and-arrays)
 * [day3: lab-javascript-clue](https://github.com/thusspokedata/lab-javascript-clue)
-* []()
+* [day4: assesstment](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week1/assessment-day4.md)
 
 ## Week 2
 
