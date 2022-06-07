@@ -29,6 +29,10 @@
 **Youtube videos:**
 + ![Pair Programming: 7 Habits of Highly Effective Coders](https://www.youtube.com/watch?v=5ySLQ5_cQ34)
 + ![Does Pair Programming have to suck? by Angela Harms](https://www.youtube.com/watch?v=OQXEzwXtzJ8)
++ ![CSS UNITS /BOX DIMENSIONS EXPLAINED](https://www.youtube.com/watch?v=2B_uJhpSIC4)
++ ![Google I/O 2014 - Design principles for a better mobile web](https://www.youtube.com/watch?v=xqviGwyy7y0)
++ ![David Khourshid: Reactive Animations with CSS Variables - JSConf Iceland 2016](https://www.youtube.com/watch?v=lTCukb6Zn3g)
++ ![Angelina Fabbro - CSS Levels Up [CSSconf.eu 2013](https://www.youtube.com/watch?v=UpVj5azI-iI)
 <hr>
 <p> <em>Potential Interview questions</em> (each property clickable and will take you to external resources, feel inspired to explore):
 JavaScript is a <a href="https://en.wikipedia.org/wiki/Prototype-based_programming" target="_blank" rel="noopener noreferrer">prototype-based</a>, <a href="https://en.wikipedia.org/wiki/Programming_paradigm#Support_for_multiple_paradigms" target="_blank" rel="noopener noreferrer">multi-paradigm</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures" target="_blank" rel="noopener noreferrer">dynamically typed</a> language, supporting <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS" target="_blank" rel="noopener noreferrer">object-oriented</a>, <a href="https://en.wikipedia.org/wiki/JavaScript#Imperative_and_structured" target="_blank" rel="noopener noreferrer">imperative and structured</a>, and declarative (e.g. <a href="https://en.wikipedia.org/wiki/JavaScript#Functional" target="_blank" rel="noopener noreferrer">functional programming</a>) styles.</p>
