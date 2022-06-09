@@ -29,11 +29,15 @@
 
 <!-- <img src="" width="300" height="70" /> -->
 
-* []()
-* []()
-* []()
-* []()
-* []()
+* [Notes]()
+* [Lessons]()
+* [day1: LAB | DOM Pizza Builder](https://github.com/thusspokedata/lab-dom-pizza-builder)
+* [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
+* [day2: LAB | JS Vikings](https://github.com/thusspokedata/lab-javascript-vikings)
+* [day3: ](#)
+* [day4: assesstment](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day9-oop.md)
+* [day4: ](#)
+* [day5: ](#)
 
 ## Week 3
 
