@@ -19,9 +19,9 @@
 * [Lessons](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/tree/main/week1/lessons)
 * [day1: lab-javascript-basic-algorithms](https://github.com/thusspokedata/lab-javascript-basic-algorithms)
 * [day2: lab-javascript-functions-and-arrays](https://github.com/thusspokedata/lab-javascript-functions-and-arrays)
-* [day2: LAB | CSS Recipes clone](#)
+* [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
 * [day3: lab-javascript-clue](https://github.com/thusspokedata/lab-javascript-clue)
-* [day4: assesstment](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week1/assessment-day4.md)
+* [day4: assesstment JS Foundations](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week1/assessment-day4.md)
 * [day4: LAB | CSS Spotify clone](#)
 * [day5: lab-javascript-greatest-movies](https://github.com/thusspokedata/lab-javascript-greatest-movies)
 
@@ -34,8 +34,8 @@
 * [day1: LAB | DOM Pizza Builder](https://github.com/thusspokedata/lab-dom-pizza-builder)
 * [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
 * [day2: LAB | JS Vikings](https://github.com/thusspokedata/lab-javascript-vikings)
-* [day3: ](#)
-* [day4: assesstment](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day9-oop.md)
+* [day3: assesstment JS DOM](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day8.md)
+* [day4: assesstment JS OOP](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day9-oop.md)
 * [day4: ](#)
 * [day5: ](#)
 
