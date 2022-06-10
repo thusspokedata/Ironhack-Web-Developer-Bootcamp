@@ -32,6 +32,7 @@
 * [Notes]()
 * [Lessons]()
 * [day1: LAB | DOM Pizza Builder](https://github.com/thusspokedata/lab-dom-pizza-builder)
+* [day1: Reinforcement - OOP: LAB | JavaScript Memory Game](https://github.com/thusspokedata/lab-javascript-memory-game)
 * [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
 * [day2: LAB | JS Vikings](https://github.com/thusspokedata/lab-javascript-vikings)
 * [day3: assesstment JS DOM](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day8.md)
