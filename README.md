@@ -10,7 +10,7 @@
 * [CSS](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/css.md)
 * [Git & GitHub](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/git-%26-github.md)
 * [Assessments](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/pre-work/assesments.md)
-* [lab-html-exercise](https://github.com/thusspokedata/lab-html-exercise)
+* [Module Exercise: HTML & CSS](https://github.com/thusspokedata/lab-html-exercise)
 ## Week 1
 
 ![]()
@@ -23,7 +23,7 @@
 * [day3: LAB | JS Clue - Mixing objects and arrays](https://github.com/thusspokedata/lab-javascript-clue)
 * [day4: assesstment JS Foundations](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week1/assessment-day4.md)
 * [day4: LAB | CSS Spotify clone](#)
-* [day5: lab-javascript-greatest-movies](https://github.com/thusspokedata/lab-javascript-greatest-movies)
+* [day5: LAB | Greatest Movies of All Time](https://github.com/thusspokedata/lab-javascript-greatest-movies)
 
 ## Week 2
 
@@ -32,7 +32,7 @@
 * [Notes]()
 * [Lessons]()
 * [day1: LAB | DOM Pizza Builder](https://github.com/thusspokedata/lab-dom-pizza-builder)
-* [day1: Reinforcement - OOP: LAB | JavaScript Memory Game](https://github.com/thusspokedata/lab-javascript-memory-game)
+* [day1: Reinforcement - OOP: LAB | JavaScript Memory Game -still in progress-](https://github.com/thusspokedata/lab-javascript-memory-game)
 * [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
 * [day2: LAB | JS Vikings](https://github.com/thusspokedata/lab-javascript-vikings)
 * [day3: assesstment JS DOM](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day8.md)
