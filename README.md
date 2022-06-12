@@ -17,10 +17,10 @@
 
 * [Notes](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week1/day1/readme.md)
 * [Lessons](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/tree/main/week1/lessons)
-* [day1: lab-javascript-basic-algorithms](https://github.com/thusspokedata/lab-javascript-basic-algorithms)
-* [day2: lab-javascript-functions-and-arrays](https://github.com/thusspokedata/lab-javascript-functions-and-arrays)
+* [day1: LAB | JS Basic Algorithms](https://github.com/thusspokedata/lab-javascript-basic-algorithms)
+* [day2: LAB | JS Functions & Arrays](https://github.com/thusspokedata/lab-javascript-functions-and-arrays)
 * [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
-* [day3: lab-javascript-clue](https://github.com/thusspokedata/lab-javascript-clue)
+* [day3: LAB | JS Clue - Mixing objects and arrays](https://github.com/thusspokedata/lab-javascript-clue)
 * [day4: assesstment JS Foundations](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week1/assessment-day4.md)
 * [day4: LAB | CSS Spotify clone](#)
 * [day5: lab-javascript-greatest-movies](https://github.com/thusspokedata/lab-javascript-greatest-movies)
@@ -36,8 +36,8 @@
 * [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
 * [day2: LAB | JS Vikings](https://github.com/thusspokedata/lab-javascript-vikings)
 * [day3: assesstment JS DOM](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day8.md)
+* [day4: Cloning with Bootstrap -still in progress-](https://github.com/thusspokedata/lab-bootstrap-cloning-revera)
 * [day4: assesstment JS OOP](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day9-oop.md)
-* [day4: ](#)
 * [day5: ](#)
 
 ## Week 3
