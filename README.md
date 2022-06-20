@@ -56,8 +56,8 @@
 <!-- <img src="" width="100" height="70" /> -->
 ![]()
 
-* []()
-* []()
+* [LAB | Promise me a dinner](https://github.com/thusspokedata/lab-es6-promises)
+* [ES6 JavaScript Koans](https://github.com/thusspokedata/lab-es6-javascript-koans)
 * []()
 * []()
 * []()
