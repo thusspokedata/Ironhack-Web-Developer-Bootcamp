@@ -1,0 +1,5 @@
+* ![JS | Testing & Jest](https://my.ironhack.com/cohorts/61a7b19bfa82e1002c5383dd/lms/courses/course-v1:IRONHACK+WDFT+202205_BER/modules/ironhack-course-chapter_2/units/ironhack-course-chapter_2-sequential_3-vertical)
+* ![Jest Tutorial for Beginners](https://www.valentinog.com/blog/jest/)
+* ![jasmine-core](https://jasmine.github.io/api/4.2/global)
+* ![jestjs.io](https://jestjs.io/)
+* ![Jasmine | A JavaScript Testing Framework](https://github.com/jasmine/jasmine)
