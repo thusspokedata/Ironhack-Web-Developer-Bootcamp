@@ -1,5 +1,10 @@
-year AND director : 
+<code>unzip movies.json.zip</code> <br />
+<code>mongoimport --db video --collection movies --file movies.json --jsonArray</code> <br />
+another example: <br />
+<code>mongoimport --db companiesDB --collection companies --file data.json</code>
 
+
+year AND director : 
 {$and: [{director: 'James Cameron'}, {year: '1991'}]}
 
 
