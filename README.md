@@ -76,9 +76,9 @@
 <!-- <img src="" width="100" height="70" /> -->
 ![]()
 
-* [LAB | Promise me a dinner](https://github.com/thusspokedata/lab-es6-promises)
-* [ES6 JavaScript Koans](https://github.com/thusspokedata/lab-es6-javascript-koans)
-* []()
+* [Day1: LAB | Promise me a dinner](https://github.com/thusspokedata/lab-es6-promises)
+* [Day1: ES6 JavaScript Koans](https://github.com/thusspokedata/lab-es6-javascript-koans)
+* [Day2: MongoDB | Compass CRUD](https://github.com/thusspokedata/lab-advance-querying-mongo)
 * []()
 * []()
 
