@@ -64,7 +64,9 @@
 * [day3: assesstment JS DOM](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day8.md)
 * [day4: Cloning with Bootstrap -still in progress-](https://github.com/thusspokedata/lab-bootstrap-cloning-revera)
 * [day4: assesstment JS OOP](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day9-oop.md)
-* [day5: ](#)
+* [day4: JS | Testing & Jest](#)
+  + [Unit Testing Example](https://github.com/thusspokedata/unit-testing-example)
+  + [Testing Intro](https://github.com/Ironhack-May-2022/w2d4/tree/master/testing-intro)
 
 ## Week 3
 
