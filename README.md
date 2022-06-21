@@ -67,6 +67,7 @@
 * [day4: JS | Testing & Jest](#)
   + [Unit Testing Example](https://github.com/thusspokedata/unit-testing-example)
   + [Testing Intro](https://github.com/Ironhack-May-2022/w2d4/tree/master/testing-intro)
+* [LAB | Intro to testing with Jest](https://github.com/thusspokedata/lab-testing-jest)
 
 ## Week 3
 
