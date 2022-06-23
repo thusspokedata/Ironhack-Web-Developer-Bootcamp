@@ -90,6 +90,7 @@
 * [Day2: Intro to Node](https://github.com/thusspokedata/lab-intro-node)
 * [Day3: Express basic website](https://github.com/thusspokedata/lab-express-basic-site)
 * [Day4: LAB | Express IronBeers](https://github.com/thusspokedata/lab-ironbeers)
+* [Day4: Mongoose Recipes](https://github.com/thusspokedata/lab-mongoose-recipes)
 
 ## Week 5
 
