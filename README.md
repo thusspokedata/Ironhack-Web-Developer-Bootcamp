@@ -89,6 +89,7 @@
 * [Day2: MongoDB | Compass CRUD](https://github.com/thusspokedata/lab-advance-querying-mongo)
 * [Day2: Intro to Node](https://github.com/thusspokedata/lab-intro-node)
 * [Day3: Express basic website](https://github.com/thusspokedata/lab-express-basic-site)
+* [Day4: LAB | Express IronBeers](https://github.com/thusspokedata/lab-ironbeers)
 
 ## Week 5
 
