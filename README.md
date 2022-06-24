@@ -92,6 +92,7 @@
 * [Day3: Express basic website](https://github.com/thusspokedata/lab-express-basic-site)
 * [Day4: LAB | Express IronBeers](https://github.com/thusspokedata/lab-ironbeers)
 * [Day4: Mongoose Recipes](https://github.com/thusspokedata/lab-mongoose-recipes)
+* [Day5: Express Spotify Searcher](https://github.com/thusspokedata/lab-express-spotify)
 
 ## Week 5
 
