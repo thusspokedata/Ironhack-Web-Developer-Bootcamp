@@ -133,4 +133,7 @@
 * []()
 * []()
 * []()
+<hr/>
 
+* [Javascript Unit Test -Vitest-](https://github.com/thusspokedata/javascript-unit-testing)
+* [Sass](https://github.com/thusspokedata/learning-sass)
