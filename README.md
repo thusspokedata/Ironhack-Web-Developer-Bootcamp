@@ -98,7 +98,7 @@
 
 ![]()
 
-* []()
+* [Day1: Mongoose Movies](https://github.com/thusspokedata/Mongoose-Movies-Lab)
 * []()
 * []()
 * []()
