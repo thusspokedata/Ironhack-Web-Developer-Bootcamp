@@ -99,7 +99,7 @@
 ![]()
 
 * [Day1: Mongoose Movies](https://github.com/thusspokedata/Mongoose-Movies-Lab)
-* []()
+* [Day2: LAB | Basic Auth](https://github.com/thusspokedata/lab-express-basic-auth)
 * []()
 * []()
 * []()
