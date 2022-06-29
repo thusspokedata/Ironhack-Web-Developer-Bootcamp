@@ -58,17 +58,17 @@
 * [Notes]()
 * [Lessons]()
 * [day1: LAB | DOM Pizza Builder](https://github.com/thusspokedata/lab-dom-pizza-builder)
-* [day1: Reinforcement - OOP: LAB | JavaScript Memory Game -still in progress-](https://github.com/thusspokedata/lab-javascript-memory-game)
+* [day1: LAB | Reinforcement - OOP: LAB | JavaScript Memory Game -still in progress-](https://github.com/thusspokedata/lab-javascript-memory-game)
 * [day1: LAB | JS Koans](https://github.com/thusspokedata/lab-javascript-koans)
 * [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
 * [day2: LAB | JS Vikings](https://github.com/thusspokedata/lab-javascript-vikings)
 * [day3: assesstment JS DOM](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day8.md)
-* [day4: Cloning with Bootstrap -still in progress-](https://github.com/thusspokedata/lab-bootstrap-cloning-revera)
+* [day4: LAB | Cloning with Bootstrap -still in progress-](https://github.com/thusspokedata/lab-bootstrap-cloning-revera)
 * [day4: assesstment JS OOP](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day9-oop.md)
 * [day4: JS | Testing & Jest](#)
   + [Unit Testing Example](https://github.com/thusspokedata/unit-testing-example)
   + [Testing Intro](https://github.com/Ironhack-May-2022/w2d4/tree/master/testing-intro)
-* [LAB | Intro to testing with Jest](https://github.com/thusspokedata/lab-testing-jest)
+* [day5: LAB | Intro to testing with Jest](https://github.com/thusspokedata/lab-testing-jest)
 
 ## Week 3
 
@@ -86,21 +86,21 @@
 ![]()
 
 * [Day1: LAB | Promise me a dinner](https://github.com/thusspokedata/lab-es6-promises)
-* [Day1: ES6 JavaScript Koans](https://github.com/thusspokedata/lab-es6-javascript-koans)
-* [Day2: MongoDB | Compass CRUD](https://github.com/thusspokedata/lab-advance-querying-mongo)
-* [Day2: Intro to Node](https://github.com/thusspokedata/lab-intro-node)
-* [Day3: Express basic website](https://github.com/thusspokedata/lab-express-basic-site)
+* [Day1: LAB | ES6 JavaScript Koans](https://github.com/thusspokedata/lab-es6-javascript-koans)
+* [Day2: LAB | MongoDB | Compass CRUD](https://github.com/thusspokedata/lab-advance-querying-mongo)
+* [Day2: LAB | Intro to Node](https://github.com/thusspokedata/lab-intro-node)
+* [Day3: LAB | Express basic website](https://github.com/thusspokedata/lab-express-basic-site)
 * [Day4: LAB | Express IronBeers](https://github.com/thusspokedata/lab-ironbeers)
-* [Day4: Mongoose Recipes](https://github.com/thusspokedata/lab-mongoose-recipes)
-* [Day5: Express Spotify Searcher](https://github.com/thusspokedata/lab-express-spotify)
+* [Day4: LAB | Mongoose Recipes](https://github.com/thusspokedata/lab-mongoose-recipes)
+* [Day5: LAB | Express Spotify Searcher](https://github.com/thusspokedata/lab-express-spotify)
 
 ## Week 5
 
 ![]()
 
-* [Day1: Mongoose Movies](https://github.com/thusspokedata/Mongoose-Movies-Lab)
+* [Day1: LAB | Mongoose Movies](https://github.com/thusspokedata/Mongoose-Movies-Lab)
 * [Day2: LAB | Basic Auth](https://github.com/thusspokedata/lab-express-basic-auth)
-* []()
+* [Day3: LAB | Authentication with PassportJS](https://github.com/thusspokedata/lab-authentication-with-passport)
 * []()
 * []()
 
