@@ -102,7 +102,7 @@
 * [Day2: LAB | Basic Auth](https://github.com/thusspokedata/lab-express-basic-auth)
 * [Day3: LAB | Authentication with PassportJS](https://github.com/thusspokedata/lab-authentication-with-passport)
 * [Day4: LAB | Financial Data Graphing -in progress-](https://github.com/thusspokedata/lab-financial-data-graphing)
-* [Day:5 Seting Up Nodemailer](https://github.com/thusspokedata/nodemailer)
+* [Day:5 Setting Up Nodemailer](https://github.com/thusspokedata/nodemailer)
 
 ## Week 6
 
