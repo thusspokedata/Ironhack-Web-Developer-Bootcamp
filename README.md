@@ -107,7 +107,7 @@
 ## Week 6
 
 ![Second Project](https://github.com/Beachvolley-Project/Project-2)
-  * [Link to App]()
+  * [Link to App](https://meeture-berlin.herokuapp.com/)
 
 ## Week 7
 
