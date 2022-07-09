@@ -106,13 +106,8 @@
 
 ## Week 6
 
-![]()
-
-* []()
-* []()
-* []()
-* []()
-* []()
+![Second Project](https://github.com/Beachvolley-Project/Project-2)
+  * [Link to App]()
 
 ## Week 7
 
