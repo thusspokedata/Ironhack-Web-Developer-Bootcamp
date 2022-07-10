@@ -72,9 +72,11 @@
 
 ## Week 3
 
-![]()
-
 * [Ironhack First Project: Hangman](https://github.com/thusspokedata/Ironhack-first-project)
+![day1: Kata | Anagrams](https://github.com/thusspokedata/katas/blob/main/js-Number-of-anagrams-in-an-array-of-words.md)
+* [day3: Kata | Clocky Mc Clock-Face](https://github.com/thusspokedata/katas/blob/main/js-Clocky-Mc-Clock-Face.md)
+* [day4: Kata | Sorting a 2D array](https://github.com/thusspokedata/katas/blob/main/js_Sort_a_2D_array.md)
+* []()
 
 ## Week 4
 
@@ -106,8 +108,13 @@
 
 ## Week 6
 
-![Second Project](https://github.com/Beachvolley-Project/Project-2)
-  * [Link to App](https://meeture-berlin.herokuapp.com/)
+* ![Second Project](https://github.com/Beachvolley-Project/Project-2) - [Link to App](https://meeture-berlin.herokuapp.com/)
+* [Day1: Kata | Persistent Bugger](https://github.com/thusspokedata/katas/blob/main/js.Persistent-Bugger.md)
+* [Day2: Kata | Find the missing letter](https://github.com/thusspokedata/katas/blob/main/js-Find-the-missing-letter.md)
+* []()
+* []()
+* []()
+  
 
 ## Week 7
 
