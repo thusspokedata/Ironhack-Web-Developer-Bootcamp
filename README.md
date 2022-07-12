@@ -125,7 +125,7 @@
 
 * [Day1: LAB | React Tweets](https://github.com/thusspokedata/lab-react-tweets)
 * [Day1: LAB | React Training](https://github.com/thusspokedata/lab-react-training)
-* []()
+* [Day2: LAB | React IronContacts](https://github.com/thusspokedata/lab-react-ironcontacts)
 * []()
 * []()
 
