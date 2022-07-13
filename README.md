@@ -98,8 +98,6 @@
 
 ## Week 5
 
-![]()
-
 * [Day1: LAB | Mongoose Movies](https://github.com/thusspokedata/Mongoose-Movies-Lab)
 * [Day2: LAB | Basic Auth](https://github.com/thusspokedata/lab-express-basic-auth)
 * [Day3: LAB | Authentication with PassportJS](https://github.com/thusspokedata/lab-authentication-with-passport)
@@ -120,8 +118,6 @@
 ## Week 7
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="30" height="30"/>
-
-![]()
 
 * [Day1: LAB | React Tweets](https://github.com/thusspokedata/lab-react-tweets)
 * [Day1: LAB | React Training](https://github.com/thusspokedata/lab-react-training)
