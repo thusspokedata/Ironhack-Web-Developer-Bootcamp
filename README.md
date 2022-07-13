@@ -120,7 +120,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="30" height="30"/>
 
 * [Day1: LAB | React Tweets](https://github.com/thusspokedata/lab-react-tweets)
-* [Day1: LAB | React Training](https://github.com/thusspokedata/lab-react-training)
+* [Day1: LAB | React Training -in progress-](https://github.com/thusspokedata/lab-react-training)
 * [Day2: LAB | React IronContacts](https://github.com/thusspokedata/lab-react-ironcontacts)
 * []()
 * []()
