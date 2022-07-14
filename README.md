@@ -124,13 +124,13 @@
 * [Day2: LAB | React IronContacts](https://github.com/thusspokedata/lab-react-ironcontacts)
 * [Day3: LAB | React Ironbook -in progress-](https://github.com/thusspokedata/ironbook) 
 * [Day3: LAB | React IronNutrition -in progress-](https://github.com/thusspokedata/lab-react-ironnutrition)
+* [Day4: LAB | Thinking in React -in progress-](https://github.com/thusspokedata/lab-thinking-in-react)
+* []()
 
 ## Week 8
 
 ![]()
 
-* []()
-* []()
 * []()
 * []()
 * []()
