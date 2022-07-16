@@ -125,7 +125,7 @@
 * [Day3: LAB | React Ironbook -in progress-](https://github.com/thusspokedata/ironbook) 
 * [Day3: LAB | React IronNutrition -in progress-](https://github.com/thusspokedata/lab-react-ironnutrition)
 * [Day4: LAB | Thinking in React -in progress-](https://github.com/thusspokedata/lab-thinking-in-react)
-* [Day4: LAB | React WikiCountries -in progress-](https://github.com/ironhack-labs/lab-wiki-countries)
+* [Day4: LAB | React WikiCountries -in progress-](https://github.com/thusspokedata/lab-wiki-countries)
 
 ## Week 8
 
