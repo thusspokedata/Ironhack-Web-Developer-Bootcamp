@@ -58,12 +58,12 @@
 * [Notes]()
 * [Lessons]()
 * [day1: LAB | DOM Pizza Builder](https://github.com/thusspokedata/lab-dom-pizza-builder)
-* [day1: LAB | Reinforcement - OOP: LAB | JavaScript Memory Game -still in progress-](https://github.com/thusspokedata/lab-javascript-memory-game)
+* [day1: LAB | Reinforcement - OOP: LAB | JavaScript Memory Game -IP-](https://github.com/thusspokedata/lab-javascript-memory-game)
 * [day1: LAB | JS Koans](https://github.com/thusspokedata/lab-javascript-koans)
 * [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
 * [day2: LAB | JS Vikings](https://github.com/thusspokedata/lab-javascript-vikings)
 * [day3: assesstment JS DOM](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day8.md)
-* [day4: LAB | Cloning with Bootstrap -still in progress-](https://github.com/thusspokedata/lab-bootstrap-cloning-revera)
+* [day4: LAB | Cloning with Bootstrap -IP-](https://github.com/thusspokedata/lab-bootstrap-cloning-revera)
 * [day4: assesstment JS OOP](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day9-oop.md)
 * [day4: JS | Testing & Jest](#)
   + [Unit Testing Example](https://github.com/thusspokedata/unit-testing-example)
@@ -101,7 +101,7 @@
 * [Day1: LAB | Mongoose Movies](https://github.com/thusspokedata/Mongoose-Movies-Lab)
 * [Day2: LAB | Basic Auth](https://github.com/thusspokedata/lab-express-basic-auth)
 * [Day3: LAB | Authentication with PassportJS](https://github.com/thusspokedata/lab-authentication-with-passport)
-* [Day4: LAB | Financial Data Graphing -in progress-](https://github.com/thusspokedata/lab-financial-data-graphing)
+* [Day4: LAB | Financial Data Graphing -IP-](https://github.com/thusspokedata/lab-financial-data-graphing)
 * [Day5: LAB | Express IronTumblr -missing bonus-](https://github.com/thusspokedata/lab-file-upload)
 * [Day5: Setting Up Nodemailer](https://github.com/thusspokedata/nodemailer)
 * [Day5: LAB | Sign up Confirmation Email](https://github.com/thusspokedata/lab-nodemailer)
@@ -111,21 +111,17 @@
 * ![Second Project](https://github.com/Beachvolley-Project/Project-2) - [Link to App](https://meeture-berlin.herokuapp.com/)
 * [Day1: Kata | Persistent Bugger](https://github.com/thusspokedata/katas/blob/main/js.Persistent-Bugger.md)
 * [Day2: Kata | Find the missing letter](https://github.com/thusspokedata/katas/blob/main/js-Find-the-missing-letter.md)
-* []()
-* []()
-* []()
-  
 
 ## Week 7
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="30" height="30"/>
 
 * [Day1: LAB | React Tweets](https://github.com/thusspokedata/lab-react-tweets)
-* [Day1: LAB | React Training -in progress-](https://github.com/thusspokedata/lab-react-training)
+* [Day1: LAB | React Training -IP-](https://github.com/thusspokedata/lab-react-training)
 * [Day2: LAB | React IronContacts](https://github.com/thusspokedata/lab-react-ironcontacts)
-* [Day3: LAB | React Ironbook -in progress-](https://github.com/thusspokedata/ironbook) 
-* [Day3: LAB | React IronNutrition -in progress-](https://github.com/thusspokedata/lab-react-ironnutrition)
-* [Day4: LAB | Thinking in React -in progress-](https://github.com/thusspokedata/lab-thinking-in-react)
+* [Day3: LAB | React Ironbook -IP-](https://github.com/thusspokedata/ironbook) 
+* [Day3: LAB | React IronNutrition -IP-](https://github.com/thusspokedata/lab-react-ironnutrition)
+* [Day4: LAB | Thinking in React -IP-](https://github.com/thusspokedata/lab-thinking-in-react)
 * [Day4: LAB | React WikiCountries](https://github.com/thusspokedata/lab-wiki-countries)
 * [Day5: LAB | React IronBeers](https://github.com/thusspokedata/lab-react-ironbeers)
 
