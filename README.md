@@ -42,7 +42,7 @@
 * [day3: LAB | JS Clue - Mixing objects and arrays](https://github.com/thusspokedata/lab-javascript-clue)
 * [day3: LAB | CSS | Slack clone with Flexbox](https://github.com/thusspokedata/lab-css-flexbox-slack)
 * [day4: assesstment JS Foundations](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week1/assessment-day4.md)
-* [day4: LAB | CSS Spotify clone](#)
+* [day4: LAB | CSS Spotify clone](https://github.com/thusspokedata/lab-css-spotify-clone)
 * [day5: LAB | Greatest Movies of All Time](https://github.com/thusspokedata/lab-javascript-greatest-movies)
 
 ## Week 2
