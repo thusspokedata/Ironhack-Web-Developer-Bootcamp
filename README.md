@@ -63,6 +63,7 @@
 * [day1: LAB | JS Koans](https://github.com/thusspokedata/lab-javascript-koans)
 * [day2: LAB | Ironhack Cart](https://github.com/thusspokedata/lab-dom-ironhack-cart)
 * [day2: LAB | JS Vikings](https://github.com/thusspokedata/lab-javascript-vikings)
+* [day2: LAB | JS Advanced Algorithms(https://github.com/thusspokedata/lab-javascript-advanced-algorithms)
 * [day3: assesstment JS DOM](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day8.md)
 * [day4: LAB | Cloning with Bootstrap -IP-](https://github.com/thusspokedata/lab-bootstrap-cloning-revera)
 * [day4: assesstment JS OOP](https://github.com/thusspokedata/Ironhack-Web-Developer-Bootcamp/blob/main/week2/assessment-day9-oop.md)
