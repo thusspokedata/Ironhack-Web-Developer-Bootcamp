@@ -107,6 +107,7 @@
 * [Day2: LAB | Basic Auth](https://github.com/thusspokedata/lab-express-basic-auth)
 * [Day3: LAB | Authentication with PassportJS](https://github.com/thusspokedata/lab-authentication-with-passport)
 * [Day4: LAB | Financial Data Graphing -IP-](https://github.com/thusspokedata/lab-financial-data-graphing)
+* [Day4: LAB | Cloning with Bootstrap](https://github.com/thusspokedata/lab-bootstrap-cloning-revera)
 * [Day5: LAB | File Upload](https://github.com/thusspokedata/tutorial-Express-File-Upload-with-Cloudinary)
 * [Day5: LAB | Express IronTumblr -missing bonus-](https://github.com/thusspokedata/lab-file-upload)
 * [Day5: Setting Up Nodemailer](https://github.com/thusspokedata/nodemailer)
