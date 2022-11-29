@@ -126,7 +126,7 @@
 * [Day1: LAB | React Tweets](https://github.com/thusspokedata/lab-react-tweets)
 * [Day1: LAB | React Training -IP-](https://github.com/thusspokedata/lab-react-training)
 * [Day2: LAB | React IronContacts](https://github.com/thusspokedata/lab-react-ironcontacts)
-* [Day3: LAB | React Ironbook -IP-](https://github.com/thusspokedata/ironbook) 
+* [Day3: LAB | React Ironbook](https://github.com/thusspokedata/ironbook) 
 * [Day3: LAB | React IronNutrition -IP-](https://github.com/thusspokedata/lab-react-ironnutrition)
 * [Day4: LAB | Thinking in React -IP-](https://github.com/thusspokedata/lab-thinking-in-react)
 * [Day4: LAB | React WikiCountries](https://github.com/thusspokedata/lab-wiki-countries)
